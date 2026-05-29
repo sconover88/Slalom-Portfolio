@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Dark background -->
+  <rect width="1200" height="800" fill="#1E293B"/>
+  <!-- Decorative -->
+  <circle cx="60" cy="60" r="30" fill="#F472B6" opacity="0.2"/>
+  <circle cx="1140" cy="740" r="25" fill="#34D399" opacity="0.2"/>
+  <polygon points="1100,60 1130,110 1070,110" fill="#FBBF24" opacity="0.2"/>
+  <rect x="50" y="700" width="20" height="20" fill="#8B5CF6" opacity="0.25" transform="rotate(45, 60, 710)"/>
+  <!-- Desktop — left side, tilted -->
+  <g transform="rotate(-4, 380, 400)">
+    <rect x="42" y="92" width="700" height="500" rx="14" fill="rgba(0,0,0,0.3)"/>
+    <rect x="30" y="80" width="700" height="500" rx="14" fill="#FFFFFF"/>
+    <rect x="43" y="93" width="674" height="28" rx="6" fill="#F1F5F9"/>
+    <circle cx="60" cy="107" r="4.5" fill="#EF4444"/>
+    <circle cx="76" cy="107" r="4.5" fill="#FBBF24"/>
+    <circle cx="92" cy="107" r="4.5" fill="#34D399"/>
+    <rect x="112" y="99" width="260" height="14" rx="7" fill="#E2E8F0"/>
+    <rect x="43" y="125" width="674" height="443" rx="3" fill="#F8FAFC"/>
+  </g>
+  <!-- Phone — right side, tilted opposite, floating -->
+  <g transform="rotate(6, 1000, 400)">
+    <rect x="892" y="162" width="210" height="440" rx="28" fill="rgba(0,0,0,0.3)"/>
+    <rect x="880" y="150" width="210" height="440" rx="28" fill="#1E293B"/>
+    <rect x="893" y="168" width="184" height="404" rx="20" fill="#F1F5F9"/>
+  </g>
+</svg>

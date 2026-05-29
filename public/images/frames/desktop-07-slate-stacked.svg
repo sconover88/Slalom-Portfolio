@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Deep slate background -->
+  <rect width="1200" height="800" fill="#0F172A"/>
+  <!-- Decorative -->
+  <circle cx="1100" cy="100" r="60" fill="#8B5CF6" opacity="0.1"/>
+  <circle cx="100" cy="700" r="40" fill="#34D399" opacity="0.1"/>
+  <polygon points="60,80 90,130 30,130" fill="#FBBF24" opacity="0.15"/>
+  <path d="M1000,700 Q1030,680 1060,700 T1120,700" fill="none" stroke="#F472B6" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+  <!-- Back browser — peeking, lighter -->
+  <g transform="rotate(3, 650, 200)">
+    <rect x="250" y="-20" width="720" height="440" rx="14" fill="#334155"/>
+    <rect x="262" y="-8" width="696" height="24" rx="5" fill="#475569"/>
+    <circle cx="276" cy="4" r="3.5" fill="#EF4444"/>
+    <circle cx="288" cy="4" r="3.5" fill="#FBBF24"/>
+    <circle cx="300" cy="4" r="3.5" fill="#34D399"/>
+    <rect x="262" y="20" width="696" height="388" rx="3" fill="#64748B"/>
+  </g>
+  <!-- Front browser — white, prominent -->
+  <g transform="rotate(-2, 550, 480)">
+    <rect x="72" y="222" width="860" height="580" rx="16" fill="rgba(0,0,0,0.4)"/>
+    <rect x="60" y="210" width="860" height="580" rx="16" fill="#FFFFFF"/>
+    <rect x="73" y="223" width="834" height="30" rx="7" fill="#F1F5F9"/>
+    <circle cx="92" cy="238" r="5" fill="#EF4444"/>
+    <circle cx="108" cy="238" r="5" fill="#FBBF24"/>
+    <circle cx="124" cy="238" r="5" fill="#34D399"/>
+    <rect x="146" y="230" width="300" height="14" rx="7" fill="#E2E8F0"/>
+    <rect x="73" y="257" width="834" height="521" rx="4" fill="#F8FAFC"/>
+  </g>
+</svg>

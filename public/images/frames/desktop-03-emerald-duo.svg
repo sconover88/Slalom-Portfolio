@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Emerald background -->
+  <rect width="1200" height="800" fill="#34D399"/>
+  <!-- Decorative -->
+  <circle cx="150" cy="150" r="100" fill="#2DD4BF" opacity="0.3"/>
+  <circle cx="1050" cy="650" r="70" fill="#059669" opacity="0.2"/>
+  <polygon points="1100,100 1140,160 1060,160" fill="#065F46" opacity="0.2"/>
+  <!-- Left browser — angled left, bleeding off bottom -->
+  <g transform="rotate(-6, 320, 500)">
+    <rect x="22" y="202" width="620" height="700" rx="14" fill="rgba(0,0,0,0.25)"/>
+    <rect x="10" y="190" width="620" height="700" rx="14" fill="#1E293B"/>
+    <rect x="22" y="202" width="596" height="26" rx="6" fill="#334155"/>
+    <circle cx="38" cy="215" r="4" fill="#EF4444"/>
+    <circle cx="52" cy="215" r="4" fill="#FBBF24"/>
+    <circle cx="66" cy="215" r="4" fill="#34D399"/>
+    <rect x="22" y="232" width="596" height="646" rx="3" fill="#F1F5F9"/>
+  </g>
+  <!-- Right browser — angled right, bleeding off bottom -->
+  <g transform="rotate(6, 880, 500)">
+    <rect x="582" y="142" width="620" height="700" rx="14" fill="rgba(0,0,0,0.25)"/>
+    <rect x="570" y="130" width="620" height="700" rx="14" fill="#1E293B"/>
+    <rect x="582" y="142" width="596" height="26" rx="6" fill="#334155"/>
+    <circle cx="598" cy="155" r="4" fill="#EF4444"/>
+    <circle cx="612" cy="155" r="4" fill="#FBBF24"/>
+    <circle cx="626" cy="155" r="4" fill="#34D399"/>
+    <rect x="582" y="172" width="596" height="646" rx="3" fill="#F1F5F9"/>
+  </g>
+</svg>

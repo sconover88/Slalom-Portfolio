@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 500 600">
+  <rect width="500" height="600" fill="#8B5CF6" rx="16"/>
+  <text x="250" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="white">Your Photo Here</text>
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.8)">Drop scott-headshot.jpg into public/images/</text>
+</svg>

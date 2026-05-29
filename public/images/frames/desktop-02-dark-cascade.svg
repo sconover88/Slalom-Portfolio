@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Dark slate background -->
+  <rect width="1200" height="800" fill="#1E293B"/>
+  <!-- Subtle decorative -->
+  <circle cx="1140" cy="60" r="40" fill="#8B5CF6" opacity="0.15"/>
+  <circle cx="60" cy="740" r="30" fill="#34D399" opacity="0.15"/>
+  <path d="M900,750 Q940,730 980,750 T1060,750" fill="none" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" opacity="0.2"/>
+  <!-- Back browser — peeking from behind -->
+  <g transform="rotate(5, 750, 300)">
+    <rect x="380" y="20" width="700" height="460" rx="14" fill="#334155"/>
+    <rect x="391" y="31" width="678" height="26" rx="6" fill="#475569"/>
+    <circle cx="406" cy="44" r="4" fill="#EF4444"/>
+    <circle cx="418" cy="44" r="4" fill="#FBBF24"/>
+    <circle cx="430" cy="44" r="4" fill="#34D399"/>
+    <rect x="391" y="61" width="678" height="407" rx="3" fill="#64748B"/>
+  </g>
+  <!-- Front browser — prominent -->
+  <g transform="rotate(-2, 500, 450)">
+    <rect x="72" y="182" width="860" height="580" rx="16" fill="rgba(0,0,0,0.4)"/>
+    <rect x="60" y="170" width="860" height="580" rx="16" fill="#FFFFFF"/>
+    <rect x="73" y="183" width="834" height="32" rx="7" fill="#F1F5F9"/>
+    <circle cx="92" cy="199" r="5" fill="#EF4444"/>
+    <circle cx="108" cy="199" r="5" fill="#FBBF24"/>
+    <circle cx="124" cy="199" r="5" fill="#34D399"/>
+    <rect x="146" y="191" width="300" height="14" rx="7" fill="#E2E8F0"/>
+    <rect x="73" y="219" width="834" height="519" rx="4" fill="#F8FAFC"/>
+  </g>
+</svg>

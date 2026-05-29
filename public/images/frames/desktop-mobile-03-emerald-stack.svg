@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Emerald/teal background -->
+  <rect width="1200" height="800" fill="#065F46"/>
+  <!-- Decorative -->
+  <circle cx="1100" cy="100" r="60" fill="#34D399" opacity="0.15"/>
+  <circle cx="100" cy="700" r="40" fill="#6EE7B7" opacity="0.1"/>
+  <polygon points="1050,700 1080,740 1020,740" fill="#FBBF24" opacity="0.15"/>
+  <path d="M100,100 Q130,80 160,100 T220,100" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+  <!-- Desktop browser — top, large -->
+  <g transform="rotate(-1, 560, 240)">
+    <rect x="112" y="22" width="880" height="440" rx="14" fill="rgba(0,0,0,0.3)"/>
+    <rect x="100" y="10" width="880" height="440" rx="14" fill="#1E293B"/>
+    <rect x="113" y="23" width="854" height="28" rx="6" fill="#334155"/>
+    <circle cx="130" cy="37" r="4.5" fill="#EF4444"/>
+    <circle cx="146" cy="37" r="4.5" fill="#FBBF24"/>
+    <circle cx="162" cy="37" r="4.5" fill="#34D399"/>
+    <rect x="182" y="29" width="300" height="14" rx="7" fill="#475569"/>
+    <rect x="113" y="55" width="854" height="383" rx="3" fill="#F1F5F9"/>
+  </g>
+  <!-- Two phones — bottom, angled outward -->
+  <g transform="rotate(-8, 400, 650)">
+    <rect x="312" y="502" width="180" height="360" rx="24" fill="rgba(0,0,0,0.3)"/>
+    <rect x="300" y="490" width="180" height="360" rx="24" fill="#1E293B"/>
+    <rect x="312" y="506" width="156" height="328" rx="16" fill="#F1F5F9"/>
+  </g>
+  <g transform="rotate(8, 800, 650)">
+    <rect x="712" y="502" width="180" height="360" rx="24" fill="rgba(0,0,0,0.3)"/>
+    <rect x="700" y="490" width="180" height="360" rx="24" fill="#1E293B"/>
+    <rect x="712" y="506" width="156" height="328" rx="16" fill="#F1F5F9"/>
+  </g>
+</svg>

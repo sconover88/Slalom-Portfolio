@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Warm cream background with large violet accent blob -->
+  <rect width="1200" height="800" fill="#FFFDF5"/>
+  <circle cx="900" cy="400" r="350" fill="#8B5CF6" opacity="0.08"/>
+  <!-- Decorative shapes -->
+  <circle cx="80" cy="80" r="40" fill="#FBBF24" opacity="0.3"/>
+  <polygon points="1120,680 1160,740 1080,740" fill="#34D399" opacity="0.25"/>
+  <path d="M60,600 Q100,580 140,600 T220,600 T300,600" fill="none" stroke="#F472B6" stroke-width="4" stroke-linecap="round" opacity="0.2"/>
+  <circle cx="1140" cy="120" r="20" fill="#F472B6" opacity="0.25"/>
+  <rect x="40" y="400" width="24" height="24" fill="#8B5CF6" opacity="0.2" transform="rotate(45, 52, 412)"/>
+  <!-- Large shadow -->
+  <rect x="118" y="78" width="960" height="640" rx="20" fill="#1E293B" opacity="0.12"/>
+  <!-- Main browser — big and bold -->
+  <g transform="rotate(-1.5, 600, 390)">
+    <rect x="100" y="60" width="960" height="640" rx="20" fill="#1E293B"/>
+    <rect x="114" y="74" width="932" height="36" rx="8" fill="#334155"/>
+    <circle cx="136" cy="92" r="6" fill="#EF4444"/>
+    <circle cx="156" cy="92" r="6" fill="#FBBF24"/>
+    <circle cx="176" cy="92" r="6" fill="#34D399"/>
+    <rect x="200" y="83" width="380" height="16" rx="8" fill="#475569"/>
+    <rect x="114" y="114" width="932" height="574" rx="4" fill="#F8FAFC"/>
+  </g>
+</svg>

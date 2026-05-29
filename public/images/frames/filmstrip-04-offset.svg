@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Dark outer frame -->
+  <rect width="1200" height="800" fill="#1E293B" rx="20"/>
+  <!-- Gray inner border -->
+  <rect x="40" y="40" width="1120" height="720" fill="#CBD5E1" rx="16"/>
+  
+  <!-- Left column — shifted up -->
+  <rect x="65" y="30" width="340" height="70" fill="#FFFFFF" rx="10"/>
+  <rect x="65" y="115" width="340" height="480" fill="#FFFFFF" rx="14"/>
+  <rect x="65" y="610" width="340" height="70" fill="#FFFFFF" rx="10"/>
+  
+  <!-- Center column — centered (shifted down slightly) -->
+  <rect x="420" y="80" width="340" height="70" fill="#FFFFFF" rx="10"/>
+  <rect x="420" y="165" width="340" height="480" fill="#FFFFFF" rx="14"/>
+  <rect x="420" y="660" width="340" height="70" fill="#FFFFFF" rx="10"/>
+  
+  <!-- Right column — shifted up more -->
+  <rect x="775" y="10" width="340" height="70" fill="#FFFFFF" rx="10"/>
+  <rect x="775" y="95" width="340" height="480" fill="#FFFFFF" rx="14"/>
+  <rect x="775" y="590" width="340" height="70" fill="#FFFFFF" rx="10"/>
+</svg>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { outfit, plusJakartaSans } from "@/lib/fonts";
+import { plusJakartaSans } from "@/lib/fonts";
 import { siteConfig } from "@/lib/config";
 import { HeaderNav } from "@/components/header-nav";
 import { Footer } from "@/components/footer";
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${outfit.variable} ${plusJakartaSans.variable} h-full w-full antialiased`}
+      className={`${plusJakartaSans.variable} h-full w-full antialiased`}
     >
       <body className="min-h-full w-full flex flex-col">
         <header>

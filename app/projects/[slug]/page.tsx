@@ -7,20 +7,6 @@ import { ProjectImage } from "@/components/project-image";
 import { DecorativeShapes } from "@/components/decorative-shapes";
 import { cn } from "@/lib/utils";
 
-const CONFETTI_COLORS = [
-  "bg-accent",      // violet
-  "bg-secondary",   // pink
-  "bg-tertiary",    // yellow
-  "bg-quaternary",  // emerald
-];
-
-const TEXT_COLORS = [
-  "text-white",           // on violet (4.6:1 — passes)
-  "text-foreground",      // on pink (use dark for better contrast)
-  "text-foreground",      // on yellow
-  "text-foreground",      // on emerald
-];
-
 export function generateStaticParams() {
   return getAllProjectSlugs().map((slug) => ({ slug }));
 }
@@ -54,29 +40,29 @@ export default async function ProjectPage({
   }
 
   return (
-    <div className="w-full px-6 lg:px-12 xl:px-16">
+    <div className="w-full bg-[#F8FAFC]">
       {/* Hero section */}
-      <section className="relative pt-16 md:pt-24 pb-8 md:pb-12">
+      <section className="relative pt-16 sm:pt-20 lg:pt-24 pb-8 md:pb-12 overflow-hidden">
         <DecorativeShapes variant="hero" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             {project.role && (
-              <div className="inline-flex w-fit items-center rounded-full bg-accent/10 border-2 border-accent px-4 py-1.5 mb-4">
-                <p className="font-heading text-xs md:text-sm font-bold text-accent uppercase tracking-wide">
+              <div className="inline-flex w-fit items-center rounded-full bg-indigo-50 px-4 py-1.5 mb-4">
+                <p className="text-xs md:text-sm font-semibold uppercase tracking-wide bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
                   {project.role}
                 </p>
               </div>
             )}
-            <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-foreground max-w-2xl">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.1] max-w-2xl">
               {project.title}
             </h1>
-            <p className="mt-4 font-body text-lg md:text-xl text-foreground/85 max-w-2xl">
+            <p className="mt-4 text-base md:text-lg text-slate-600 max-w-2xl leading-relaxed">
               {project.description}
             </p>
 
-            {/* Tools — simple text list below description */}
+            {/* Tools */}
             {project.tools.length > 0 && (
-              <p className="mt-4 font-body text-sm text-muted-foreground">
+              <p className="mt-4 text-sm text-slate-400">
                 {project.tools.join(" · ")}
               </p>
             )}
@@ -84,15 +70,10 @@ export default async function ProjectPage({
             {/* Methods */}
             {project.methods.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-2">
-                {project.methods.map((method, index) => (
+                {project.methods.map((method) => (
                   <span
                     key={method}
-                    className={cn(
-                      "inline-flex items-center rounded-full border-2 border-foreground px-3 py-1 text-xs font-bold",
-                      "shadow-[2px_2px_0px_0px_#1E293B] md:shadow-pop",
-                      CONFETTI_COLORS[index % CONFETTI_COLORS.length],
-                      TEXT_COLORS[index % TEXT_COLORS.length]
-                    )}
+                    className="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700"
                   >
                     {method}
                   </span>
@@ -103,68 +84,66 @@ export default async function ProjectPage({
 
           {/* Hero image */}
           <div className="relative flex justify-center md:justify-end">
-            <div className="relative">
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 translate-x-3 translate-y-3 md:translate-x-5 md:translate-y-5 rounded-2xl bg-accent/20"
+            <div className="relative overflow-hidden rounded-2xl bg-white shadow-[0_4px_20px_-2px_rgba(79,70,229,0.1)]">
+              <ProjectImage
+                src={project.thumbnail}
+                alt={`${project.title} — hero image`}
+                priority
+                variant="rounded"
               />
-              <div className="relative overflow-hidden rounded-2xl bg-white shadow-card">
-                <ProjectImage
-                  src={project.thumbnail}
-                  alt={`${project.title} — hero image`}
-                  priority
-                  variant="rounded"
-                />
-              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Metadata section */}
-      <section className="py-8 md:py-12 space-y-8">
-        {/* Overview & Problem — side by side */}
-        {project.problem && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h2 className="font-heading text-lg font-bold text-foreground mb-2 border-b-2 border-border pb-2">
-                Overview
-              </h2>
-              <p className="font-body text-base text-foreground/85 mt-4">
-                {project.description}
-              </p>
+      <section className="py-8 md:py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          {project.problem && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h2 className="text-lg font-bold text-slate-900 mb-2 border-b border-slate-200 pb-2">
+                  Overview
+                </h2>
+                <p className="text-base text-slate-600 mt-4 leading-relaxed">
+                  {project.description}
+                </p>
+              </div>
+              <div>
+                <h2 className="text-lg font-bold text-slate-900 mb-2 border-b border-slate-200 pb-2">
+                  Problem
+                </h2>
+                <p className="text-base text-slate-600 mt-4 leading-relaxed">
+                  {project.problem}
+                </p>
+              </div>
             </div>
-            <div>
-              <h2 className="font-heading text-lg font-bold text-foreground mb-2 border-b-2 border-border pb-2">
-                Problem
-              </h2>
-              <p className="font-body text-base text-foreground/85 mt-4">
-                {project.problem}
-              </p>
-            </div>
-          </div>
-        )}
+          )}
+        </div>
       </section>
 
       {/* Markdown body */}
       <section className="relative py-8 md:py-12">
-        <DecorativeShapes variant="section" />
-        <MarkdownRenderer content={project.body} />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <MarkdownRenderer content={project.body} />
+        </div>
       </section>
 
       {/* Back to home link */}
       <section className="py-8 md:py-12">
-        <Link
-          href="/"
-          className={cn(
-            "inline-flex items-center gap-2",
-            "font-heading text-base font-bold text-accent",
-            "transition-colors hover:text-accent/80",
-            "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-          )}
-        >
-          ← Back to Portfolio
-        </Link>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link
+            href="/"
+            className={cn(
+              "inline-flex items-center gap-2",
+              "text-base font-semibold text-indigo-600",
+              "transition-colors hover:text-indigo-500",
+              "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+            )}
+          >
+            ← Back to Portfolio
+          </Link>
+        </div>
       </section>
     </div>
   );

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useCallback } from "react"
+import React from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -18,6 +19,7 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   const [page, setPage] = useState(0)
   const [direction, setDirection] = useState<"left" | "right">("right")
   const [isAnimating, setIsAnimating] = useState(false)
+  const [hasDragged, setHasDragged] = useState(false)
   const perPage = 3
   const totalPages = Math.ceil(testimonials.length / perPage)
 
@@ -40,35 +42,34 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
     <div>
       <div
         className={cn(
-          "grid grid-cols-1 md:grid-cols-3 gap-6 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]",
+          "grid grid-cols-1 md:grid-cols-3 gap-6 transition-all duration-300 ease-out",
           isAnimating && direction === "right" && "opacity-0 translate-x-8",
           isAnimating && direction === "left" && "opacity-0 -translate-x-8",
           !isAnimating && "opacity-100 translate-x-0"
         )}
-        style={{ minHeight: "0" }}
       >
         {currentItems.map((testimonial, index) => {
-          const avatarColor = testimonial.role.toLowerCase().includes("slalom") ? "bg-accent" : "bg-quaternary"
+          const isSlalom = testimonial.role.toLowerCase().includes("slalom")
+          const avatarColor = isSlalom ? "bg-indigo-100 text-indigo-600" : "bg-emerald-100 text-emerald-600"
           return (
           <div key={page * perPage + index} className="flex flex-col h-full">
             <div
-              className="relative rounded-2xl border-2 border-foreground bg-card p-6"
-              style={{ boxShadow: "4px 4px 0px 0px #1E293B" }}
+              className="relative rounded-xl border border-slate-100 bg-white p-6 shadow-[0_4px_20px_-2px_rgba(79,70,229,0.08)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-4px_rgba(79,70,229,0.12)]"
             >
-              <p className="font-body text-sm text-foreground leading-relaxed">
+              <p className="text-sm text-slate-700 leading-relaxed">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
             </div>
             <div className="flex items-center gap-3 pl-2 mt-4">
-              <div className={cn("flex h-10 w-10 items-center justify-center rounded-full border-2 border-foreground", avatarColor)}>
+              <div className={cn("flex h-10 w-10 items-center justify-center rounded-full", avatarColor)}>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                  <circle cx="10" cy="7" r="4" fill="white"/>
-                  <path d="M2 18c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="white"/>
+                  <circle cx="10" cy="7" r="4" fill="currentColor" opacity="0.6"/>
+                  <path d="M2 18c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="currentColor" opacity="0.6"/>
                 </svg>
               </div>
               <div>
-                <p className="font-heading text-sm font-bold text-foreground">{testimonial.name}</p>
-                <p className="font-body text-xs text-foreground/70">{testimonial.role}</p>
+                <p className="text-sm font-semibold text-slate-900">{testimonial.name}</p>
+                <p className="text-xs text-slate-500">{testimonial.role}</p>
               </div>
             </div>
           </div>
@@ -82,13 +83,12 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
           onClick={prev}
           aria-label="Previous testimonials"
           className={cn(
-            "flex h-10 w-10 items-center justify-center rounded-full border-2 border-foreground bg-card",
-            "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-            "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]",
-            "active:translate-x-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_0px_#1E293B]"
+            "flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white",
+            "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+            "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)]"
           )}
         >
-          <ChevronLeft className="h-5 w-5 text-foreground" strokeWidth={2.5} />
+          <ChevronLeft className="h-5 w-5 text-slate-600" />
         </button>
 
         <div className="flex gap-2">
@@ -98,8 +98,8 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
               onClick={() => navigate(i, i > page ? "right" : "left")}
               aria-label={`Go to page ${i + 1}`}
               className={cn(
-                "h-3 w-3 rounded-full border-2 border-foreground transition-all",
-                i === page ? "bg-foreground" : "bg-transparent"
+                "h-2.5 w-2.5 rounded-full transition-all",
+                i === page ? "bg-indigo-600" : "bg-slate-300"
               )}
             />
           ))}
@@ -109,13 +109,12 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
           onClick={next}
           aria-label="Next testimonials"
           className={cn(
-            "flex h-10 w-10 items-center justify-center rounded-full border-2 border-foreground bg-card",
-            "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-            "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]",
-            "active:translate-x-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_0px_#1E293B]"
+            "flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white",
+            "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+            "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)]"
           )}
         >
-          <ChevronRight className="h-5 w-5 text-foreground" strokeWidth={2.5} />
+          <ChevronRight className="h-5 w-5 text-slate-600" />
         </button>
       </div>
     </div>

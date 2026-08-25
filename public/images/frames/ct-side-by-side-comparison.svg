@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC" rx="12"/>
+  <!-- Blur orbs -->
+  <circle cx="100" cy="100" r="150" fill="#4F46E5" opacity="0.05"/>
+  <circle cx="1100" cy="700" r="180" fill="#7C3AED" opacity="0.04"/>
+  <!-- Left screen -->
+  <g>
+    <rect x="38" y="78" width="552" height="644" rx="12" fill="#4F46E5" opacity="0.06"/>
+    <rect x="30" y="70" width="552" height="644" rx="12" fill="#FFFFFF"/>
+    <rect x="30" y="70" width="552" height="30" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="52" cy="85" r="4" fill="#E2E8F0"/>
+    <circle cx="66" cy="85" r="4" fill="#E2E8F0"/>
+    <circle cx="80" cy="85" r="4" fill="#E2E8F0"/>
+    <rect x="30" y="100" width="552" height="614" fill="#F8FAFC"/>
+  </g>
+  <!-- Right screen -->
+  <g>
+    <rect x="626" y="78" width="552" height="644" rx="12" fill="#4F46E5" opacity="0.06"/>
+    <rect x="618" y="70" width="552" height="644" rx="12" fill="#FFFFFF"/>
+    <rect x="618" y="70" width="552" height="30" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="640" cy="85" r="4" fill="#E2E8F0"/>
+    <circle cx="654" cy="85" r="4" fill="#E2E8F0"/>
+    <circle cx="668" cy="85" r="4" fill="#E2E8F0"/>
+    <rect x="618" y="100" width="552" height="614" fill="#F8FAFC"/>
+  </g>
+</svg>

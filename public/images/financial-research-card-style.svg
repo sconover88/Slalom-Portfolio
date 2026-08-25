@@ -1,113 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
   <!-- Background -->
-  <rect width="1200" height="420" fill="#FFFDF5" rx="16"/>
-  
-  <!-- Decorative -->
-  <circle cx="60" cy="50" r="30" fill="#8B5CF6" opacity="0.08"/>
-  <circle cx="1140" cy="370" r="25" fill="#34D399" opacity="0.08"/>
+  <rect width="1200" height="420" fill="#F8FAFC" rx="12"/>
+  <!-- Subtle decorative gradient fill -->
+  <rect x="0" y="0" width="1200" height="420" fill="#4F46E5" opacity="0.015" rx="12"/>
 
   <!-- Title -->
-  <text x="600" y="35" text-anchor="middle" font-family="Outfit, system-ui, sans-serif" font-size="18" font-weight="800" fill="#1E293B">Research Themes</text>
-  <text x="600" y="55" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#64748B">4 key insights from 15 stakeholder &amp; user interviews</text>
+  <text x="600" y="35" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="18" font-weight="800" fill="#0F172A">Research Themes</text>
+  <text x="600" y="55" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">4 key insights from 15 stakeholder &amp; user interviews</text>
 
   <!-- Card 1: Ease of Collaboration -->
-  <rect x="40" y="75" width="270" height="290" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="80" cy="110" r="20" fill="#8B5CF6"/>
-  <path d="M73,110 L80,103 L87,110 M80,103 L80,117" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-  <text x="108" y="106" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Ease of</text>
-  <text x="108" y="122" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Collaboration</text>
-  <text x="60" y="145" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#64748B">Breaking down silos between all parties</text>
+  <rect x="40" y="75" width="270" height="290" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="80" cy="110" r="20" fill="#EEF2FF"/>
+  <path d="M73,110 L80,103 L87,110 M80,103 L80,117" fill="none" stroke="#4F46E5" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="108" y="106" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Ease of</text>
+  <text x="108" y="122" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Collaboration</text>
+  <text x="60" y="145" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#64748B">Breaking down silos between all parties</text>
   <!-- Key points -->
-  <text x="60" y="170" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
-  <circle cx="68" cy="188" r="3" fill="#8B5CF6"/>
-  <text x="78" y="192" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Single source of truth platform</text>
-  <circle cx="68" cy="208" r="3" fill="#8B5CF6"/>
-  <text x="78" y="212" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Shared workspaces</text>
-  <circle cx="68" cy="228" r="3" fill="#8B5CF6"/>
-  <text x="78" y="232" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Seamless handoffs</text>
-  <circle cx="68" cy="248" r="3" fill="#8B5CF6"/>
-  <text x="78" y="252" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Real-time notifications</text>
+  <text x="60" y="170" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
+  <circle cx="68" cy="188" r="3" fill="#4F46E5"/>
+  <text x="78" y="192" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Single source of truth platform</text>
+  <circle cx="68" cy="208" r="3" fill="#4F46E5"/>
+  <text x="78" y="212" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Shared workspaces</text>
+  <circle cx="68" cy="228" r="3" fill="#4F46E5"/>
+  <text x="78" y="232" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Seamless handoffs</text>
+  <circle cx="68" cy="248" r="3" fill="#4F46E5"/>
+  <text x="78" y="252" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Real-time notifications</text>
   <!-- Outcomes -->
-  <text x="60" y="278" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
-  <rect x="60" y="286" width="230" height="40" rx="8" fill="#F5F3FF"/>
-  <text x="175" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Faster onboarding &#x2022; Fewer errors</text>
-  <text x="175" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Higher satisfaction &#x2022; Stronger relationships</text>
+  <text x="60" y="278" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
+  <rect x="60" y="286" width="230" height="40" rx="8" fill="#EEF2FF"/>
+  <text x="175" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Faster onboarding &#x2022; Fewer errors</text>
+  <text x="175" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Higher satisfaction &#x2022; Stronger relationships</text>
 
   <!-- Card 2: Intelligent Automation -->
-  <rect x="330" y="75" width="270" height="290" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="370" cy="110" r="20" fill="#34D399"/>
-  <path d="M363,110 L370,103 L377,110 M370,103 L370,117" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-  <text x="398" y="106" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Intelligent</text>
-  <text x="398" y="122" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Automation</text>
-  <text x="350" y="145" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#64748B">Reducing manual effort across all roles</text>
+  <rect x="330" y="75" width="270" height="290" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="370" cy="110" r="20" fill="#EEF2FF"/>
+  <path d="M363,110 L370,103 L377,110 M370,103 L370,117" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="398" y="106" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Intelligent</text>
+  <text x="398" y="122" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Automation</text>
+  <text x="350" y="145" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#64748B">Reducing manual effort across all roles</text>
   <!-- Key points -->
-  <text x="350" y="170" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
-  <circle cx="358" cy="188" r="3" fill="#34D399"/>
-  <text x="368" y="192" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Auto-fill &amp; e-signatures</text>
-  <circle cx="358" cy="208" r="3" fill="#34D399"/>
-  <text x="368" y="212" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Triggered alerts &amp; reminders</text>
-  <circle cx="358" cy="228" r="3" fill="#34D399"/>
-  <text x="368" y="232" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Self-service functionality</text>
-  <circle cx="358" cy="248" r="3" fill="#34D399"/>
-  <text x="368" y="252" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Automated compliance checks</text>
+  <text x="350" y="170" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
+  <circle cx="358" cy="188" r="3" fill="#10B981"/>
+  <text x="368" y="192" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Auto-fill &amp; e-signatures</text>
+  <circle cx="358" cy="208" r="3" fill="#10B981"/>
+  <text x="368" y="212" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Triggered alerts &amp; reminders</text>
+  <circle cx="358" cy="228" r="3" fill="#10B981"/>
+  <text x="368" y="232" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Self-service functionality</text>
+  <circle cx="358" cy="248" r="3" fill="#10B981"/>
+  <text x="368" y="252" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Automated compliance checks</text>
   <!-- Outcomes -->
-  <text x="350" y="278" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
+  <text x="350" y="278" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
   <rect x="350" y="286" width="230" height="40" rx="8" fill="#ECFDF5"/>
-  <text x="465" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Reduced manual work &#x2022; Faster processing</text>
-  <text x="465" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Focus on high-value work &#x2022; Independence</text>
+  <text x="465" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Reduced manual work &#x2022; Faster processing</text>
+  <text x="465" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Focus on high-value work &#x2022; Independence</text>
 
   <!-- Card 3: Personalized Guidance -->
-  <rect x="620" y="75" width="270" height="290" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="660" cy="110" r="20" fill="#FBBF24"/>
-  <path d="M654,107 L660,113 L666,107" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
-  <text x="688" y="106" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Personalized</text>
-  <text x="688" y="122" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Guidance</text>
-  <text x="640" y="145" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#64748B">Every client feels understood &amp; supported</text>
+  <rect x="620" y="75" width="270" height="290" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="660" cy="110" r="20" fill="#EEF2FF"/>
+  <path d="M654,107 L660,113 L666,107" fill="none" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="688" y="106" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Personalized</text>
+  <text x="688" y="122" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Guidance</text>
+  <text x="640" y="145" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#64748B">Every client feels understood &amp; supported</text>
   <!-- Key points -->
-  <text x="640" y="170" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
-  <circle cx="648" cy="188" r="3" fill="#FBBF24"/>
-  <text x="658" y="192" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Data-driven personalization</text>
-  <circle cx="648" cy="208" r="3" fill="#FBBF24"/>
-  <text x="658" y="212" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Targeted notifications</text>
-  <circle cx="648" cy="228" r="3" fill="#FBBF24"/>
-  <text x="658" y="232" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">AI-driven recommendations</text>
-  <circle cx="648" cy="248" r="3" fill="#FBBF24"/>
-  <text x="658" y="252" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Proactive intervention dashboards</text>
+  <text x="640" y="170" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
+  <circle cx="648" cy="188" r="3" fill="#7C3AED"/>
+  <text x="658" y="192" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Data-driven personalization</text>
+  <circle cx="648" cy="208" r="3" fill="#7C3AED"/>
+  <text x="658" y="212" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Targeted notifications</text>
+  <circle cx="648" cy="228" r="3" fill="#7C3AED"/>
+  <text x="658" y="232" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">AI-driven recommendations</text>
+  <circle cx="648" cy="248" r="3" fill="#7C3AED"/>
+  <text x="658" y="252" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Proactive intervention dashboards</text>
   <!-- Outcomes -->
-  <text x="640" y="278" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
-  <rect x="640" y="286" width="230" height="40" rx="8" fill="#FFFBEB"/>
-  <text x="755" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Clients feel supported &#x2022; Higher-touch service</text>
-  <text x="755" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Proactive resolution &#x2022; Stronger loyalty</text>
+  <text x="640" y="278" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
+  <rect x="640" y="286" width="230" height="40" rx="8" fill="#EEF2FF"/>
+  <text x="755" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Clients feel supported &#x2022; Higher-touch service</text>
+  <text x="755" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Proactive resolution &#x2022; Stronger loyalty</text>
 
   <!-- Card 4: Transparent Data -->
-  <rect x="910" y="75" width="270" height="290" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="950" cy="110" r="20" fill="#F472B6"/>
-  <rect x="942" y="103" width="16" height="14" fill="none" stroke="white" stroke-width="2.5" rx="2"/>
-  <text x="978" y="106" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Transparent</text>
-  <text x="978" y="122" font-family="Outfit, system-ui" font-size="13" font-weight="700" fill="#1E293B">Data</text>
-  <text x="930" y="145" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#64748B">Confident decisions backed by accuracy</text>
+  <rect x="910" y="75" width="270" height="290" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="950" cy="110" r="20" fill="#EEF2FF"/>
+  <rect x="942" y="103" width="16" height="14" fill="none" stroke="#7C3AED" stroke-width="2.5" rx="2"/>
+  <text x="978" y="106" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Transparent</text>
+  <text x="978" y="122" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Data</text>
+  <text x="930" y="145" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#64748B">Confident decisions backed by accuracy</text>
   <!-- Key points -->
-  <text x="930" y="170" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
-  <circle cx="938" cy="188" r="3" fill="#F472B6"/>
-  <text x="948" y="192" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Integrated data layer</text>
-  <circle cx="938" cy="208" r="3" fill="#F472B6"/>
-  <text x="948" y="212" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Persona-specific dashboards</text>
-  <circle cx="938" cy="228" r="3" fill="#F472B6"/>
-  <text x="948" y="232" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Real-time synchronized data</text>
-  <circle cx="938" cy="248" r="3" fill="#F472B6"/>
-  <text x="948" y="252" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Visual decision-making tools</text>
+  <text x="930" y="170" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">KEY SOLUTIONS</text>
+  <circle cx="938" cy="188" r="3" fill="#7C3AED"/>
+  <text x="948" y="192" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Integrated data layer</text>
+  <circle cx="938" cy="208" r="3" fill="#7C3AED"/>
+  <text x="948" y="212" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Persona-specific dashboards</text>
+  <circle cx="938" cy="228" r="3" fill="#7C3AED"/>
+  <text x="948" y="232" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Real-time synchronized data</text>
+  <circle cx="938" cy="248" r="3" fill="#7C3AED"/>
+  <text x="948" y="252" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Visual decision-making tools</text>
   <!-- Outcomes -->
-  <text x="930" y="278" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
-  <rect x="930" y="286" width="230" height="40" rx="8" fill="#FDF2F8"/>
-  <text x="1045" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Confident decisions &#x2022; Consistent info</text>
-  <text x="1045" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Faster resolution &#x2022; Reduced risk</text>
+  <text x="930" y="278" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">OUTCOMES</text>
+  <rect x="930" y="286" width="230" height="40" rx="8" fill="#EEF2FF"/>
+  <text x="1045" y="303" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Confident decisions &#x2022; Consistent info</text>
+  <text x="1045" y="318" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Faster resolution &#x2022; Reduced risk</text>
 
   <!-- Who benefits — bottom row -->
-  <text x="440" y="395" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#64748B">BENEFITS ALL PERSONAS:</text>
-  <rect x="580" y="384" width="60" height="20" rx="10" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="1"/>
-  <text x="610" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#8B5CF6">Clients</text>
-  <rect x="647" y="384" width="65" height="20" rx="10" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
-  <text x="679" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#059669">Advisors</text>
-  <rect x="719" y="384" width="80" height="20" rx="10" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
-  <text x="759" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#D97706">Home Office</text>
+  <text x="440" y="395" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">BENEFITS ALL PERSONAS:</text>
+  <rect x="580" y="384" width="60" height="20" rx="8" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="610" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#4F46E5">Clients</text>
+  <rect x="647" y="384" width="65" height="20" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="679" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#10B981">Advisors</text>
+  <rect x="719" y="384" width="80" height="20" rx="8" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="759" y="398" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#4F46E5">Home Office</text>
 </svg>

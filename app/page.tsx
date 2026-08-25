@@ -13,29 +13,21 @@ const WHAT_I_DO = [
     icon: MousePointerClick,
     title: "Interaction Design",
     description: "Designing intuitive flows, micro-interactions, and navigation patterns that make complex products feel simple and delightful to use across all touchpoints.",
-    color: "bg-accent",
-    iconColor: "text-white",
   },
   {
     icon: FlaskConical,
     title: "Prototyping & Validation",
     description: "Building interactive prototypes and running usability tests to validate concepts before development begins — reducing risk and ensuring the right problems get solved.",
-    color: "bg-secondary",
-    iconColor: "text-foreground",
   },
   {
     icon: Layers,
     title: "Design Systems",
     description: "Building scalable, consistent component libraries and UI kits that unify products across platforms and empower teams to ship faster with less design debt.",
-    color: "bg-tertiary",
-    iconColor: "text-foreground",
   },
   {
     icon: Sparkles,
     title: "AI-Powered Design",
     description: "Leveraging AI tools like Figma Make, Kiro, and prompt engineering to accelerate design workflows, explore more options, and deliver polished experiences at scale.",
-    color: "bg-quaternary",
-    iconColor: "text-foreground",
   },
 ];
 
@@ -62,36 +54,27 @@ export default function Home() {
   const projects = getAllProjects();
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#F8FAFC]">
       {/* Hero section — text left, photo right */}
-      <section className="relative w-full px-8 lg:px-16 xl:px-24 py-16 md:py-24 overflow-hidden">
-        {/* Decorative shapes behind content */}
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 hidden md:block">
-          <svg className="absolute -top-10 -left-10 opacity-20" width="200" height="200" viewBox="0 0 200 200">
-            <circle cx="100" cy="100" r="100" fill="#F9A825" />
-          </svg>
-          <svg className="absolute top-16 left-24 opacity-30" width="80" height="80" viewBox="0 0 80 80">
-            <circle cx="40" cy="40" r="36" fill="none" stroke="#F472B6" strokeWidth="4" />
-          </svg>
-          <svg className="absolute top-20 right-12 opacity-20" width="60" height="60" viewBox="0 0 60 60">
-            <rect x="10" y="10" width="40" height="40" fill="none" stroke="#F9A825" strokeWidth="3" transform="rotate(45 30 30)" />
-          </svg>
-          <svg className="absolute bottom-12 right-1/3 opacity-25" width="40" height="40" viewBox="0 0 40 40">
-            <circle cx="20" cy="20" r="20" fill="#34D399" />
-          </svg>
+      <section className="relative w-full overflow-hidden py-16 sm:py-20 lg:py-24">
+        {/* Gradient blob backgrounds */}
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+          <div className="absolute -top-24 -left-24 h-96 w-96 rounded-full bg-indigo-200/40 blur-3xl" />
+          <div className="absolute top-1/3 right-0 h-80 w-80 rounded-full bg-violet-200/30 blur-3xl" />
+          <div className="absolute bottom-0 left-1/3 h-64 w-64 rounded-full bg-indigo-100/50 blur-3xl" />
         </div>
 
-        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="flex flex-col gap-6">
-            <div className="inline-flex w-fit items-center rounded-sm bg-tertiary px-4 py-2 border-2 border-foreground">
-              <p className="font-heading text-xs md:text-sm font-bold uppercase tracking-wide text-foreground">
+            <div className="inline-flex w-fit items-center rounded-full bg-indigo-50 px-4 py-2">
+              <p className="text-xs md:text-sm font-semibold uppercase tracking-wide bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
                 User Experience &amp; Product Design Specialist
               </p>
             </div>
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight max-w-xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1] max-w-xl">
               I design end-to-end digital experiences
             </h1>
-            <p className="font-body text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
+            <p className="text-base md:text-lg text-slate-600 max-w-xl leading-relaxed">
               Human-centered design accelerated by AI — from research and design systems to high-fidelity interfaces. I use AI-powered tools to move faster, iterate smarter, and deliver polished experiences at scale.
             </p>
             <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -101,11 +84,7 @@ export default function Home() {
 
           <div className="relative flex justify-center md:justify-end">
             <div className="relative">
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 translate-x-3 translate-y-3 md:translate-x-5 md:translate-y-5 rounded-2xl bg-secondary/30"
-              />
-              <div className="relative overflow-hidden rounded-2xl border-4 border-foreground bg-white p-3 shadow-card">
+              <div className="relative overflow-hidden rounded-2xl bg-white p-3 shadow-[0_4px_20px_-2px_rgba(79,70,229,0.1)]">
                 <Image
                   src="/images/scott-headshot.JPG"
                   alt="Scott Conover smiling in a navy blazer against a neutral background"
@@ -124,76 +103,78 @@ export default function Home() {
       <Marquee />
 
       {/* What I Do section */}
-      <section className="w-full px-8 lg:px-16 xl:px-24 py-10 md:py-14">
-        <div className="text-center mb-12">
-          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
-            What I Do
-          </h2>
-          <p className="mt-3 font-body text-base text-muted-foreground max-w-2xl mx-auto">
-            I bring a full-spectrum approach to UX — from early discovery and research through interaction design, prototyping, and polished delivery. Every project is an opportunity to simplify complexity and create experiences people genuinely enjoy using.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {WHAT_I_DO.map((item, index) => (
-            <div
-              key={item.title}
-              className="flex flex-col items-start gap-4 rounded-2xl border-2 border-foreground bg-card p-6"
-              style={{ boxShadow: `4px 4px 0px 0px ${["#8B5CF6", "#F472B6", "#F9A825", "#34D399"][index % 4]}` }}
-            >
-              <div className={cn("flex h-12 w-12 items-center justify-center rounded-full border-2 border-foreground", item.color)}>
-                <item.icon className={cn("h-6 w-6", item.iconColor)} strokeWidth={2.5} />
+      <section className="w-full py-16 sm:py-20 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
+              What I Do
+            </h2>
+            <p className="mt-3 text-base text-slate-600 max-w-2xl mx-auto">
+              I bring a full-spectrum approach to UX — from early discovery and research through interaction design, prototyping, and polished delivery. Every project is an opportunity to simplify complexity and create experiences people genuinely enjoy using.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {WHAT_I_DO.map((item) => (
+              <div
+                key={item.title}
+                className="flex flex-col items-start gap-4 rounded-xl border border-slate-100 bg-white p-6 shadow-[0_4px_20px_-2px_rgba(79,70,229,0.1)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_25px_-5px_rgba(79,70,229,0.15)]"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50">
+                  <item.icon className="h-6 w-6 text-indigo-600" strokeWidth={2} />
+                </div>
+                <h3 className="text-lg font-bold text-slate-900">{item.title}</h3>
+                <p className="text-sm text-slate-600 leading-relaxed">{item.description}</p>
               </div>
-              <h3 className="font-heading text-lg font-bold text-foreground">{item.title}</h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">{item.description}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Stats section */}
-      <section className="w-full py-10 md:py-14">
-        <div className="text-center mb-8 px-8 lg:px-16 xl:px-24">
-          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
-            By the Numbers
-          </h2>
-        </div>
-        <div className="w-full bg-foreground p-8 md:p-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-6xl mx-auto">
+      <section className="w-full py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-indigo-50 to-violet-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
+              By the Numbers
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {STATS.map((stat, index) => {
-              const colors = ["bg-accent", "bg-tertiary", "bg-secondary", "bg-quaternary"]
-              const textColors = ["text-white", "text-foreground", "text-foreground", "text-foreground"]
-              const shapes = ["rounded-full", "rounded-xl", "rounded-xl skew-x-[-6deg]", "rounded-xl rounded-tl-[40px] rounded-br-[40px]"]
-              const textFix = ["", "", "skew-x-[6deg]", ""]
+              const shadowColors = [
+                "shadow-[0_4px_20px_-2px_rgba(99,102,241,0.15)]",
+                "shadow-[0_4px_20px_-2px_rgba(139,92,246,0.15)]",
+                "shadow-[0_4px_20px_-2px_rgba(79,70,229,0.15)]",
+                "shadow-[0_4px_20px_-2px_rgba(124,58,237,0.15)]",
+              ];
               return (
                 <div
                   key={stat.label}
                   className={cn(
-                    "flex flex-col items-center justify-center gap-1 p-6 md:p-8",
-                    colors[index % 4],
-                    shapes[index % 4]
+                    "flex flex-col items-center justify-center gap-2 rounded-xl bg-white p-6 md:p-8 border border-slate-100 transition-all duration-300 hover:-translate-y-1",
+                    shadowColors[index % 4]
                   )}
                 >
-                  <span className={cn("font-heading text-2xl md:text-3xl font-extrabold", textColors[index % 4], textFix[index % 4])}>
+                  <span className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
                     {stat.value}
                   </span>
-                  <span className={cn("font-heading text-[10px] md:text-xs font-bold uppercase tracking-widest", textColors[index % 4], "opacity-80", textFix[index % 4])}>
+                  <span className="text-[10px] md:text-xs font-semibold uppercase tracking-widest text-slate-500">
                     {stat.label}
                   </span>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
       </section>
 
       {/* Testimonial section */}
-      <section className="w-full py-10 md:py-14">
-        <div className="w-full bg-tertiary px-8 lg:px-16 xl:px-24 py-8 md:py-10">
+      <section className="w-full py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-slate-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-10">
-            <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
               Client Feedback
             </h2>
-            <p className="mt-3 font-body text-base text-foreground/70 max-w-2xl mx-auto">
+            <p className="mt-3 text-base text-slate-600 max-w-2xl mx-auto">
               What colleagues and stakeholders have to say about working with me.
             </p>
           </div>
@@ -202,26 +183,28 @@ export default function Home() {
       </section>
 
       {/* Featured Work section */}
-      <section className="w-full px-8 lg:px-16 xl:px-24 py-10 md:py-14">
-        <div className="text-center mb-12">
-          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
-            Featured Work
-          </h2>
-          <p className="mt-3 font-body text-base text-muted-foreground max-w-2xl mx-auto">
-            Here&apos;s a selection of recent work. Each project tells the story from problem to impact.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.slug}
-              slug={project.slug}
-              title={project.title}
-              description={project.description}
-              thumbnail={project.thumbnail}
-              index={index}
-            />
-          ))}
+      <section className="w-full py-16 sm:py-20 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
+              Featured Work
+            </h2>
+            <p className="mt-3 text-base text-slate-600 max-w-2xl mx-auto">
+              Here&apos;s a selection of recent work. Each project tells the story from problem to impact.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={project.slug}
+                slug={project.slug}
+                title={project.title}
+                description={project.description}
+                thumbnail={project.thumbnail}
+                index={index}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </div>

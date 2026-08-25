@@ -1,13 +1,11 @@
-import { SectionDivider } from "@/components/section-divider"
 import { siteConfig } from "@/lib/config"
 
 export function Footer() {
   return (
-    <footer className="bg-muted">
-      <SectionDivider />
-      <div className="w-full px-6 lg:px-12 xl:px-16 py-8 text-center text-foreground">
-        <p className="font-body text-sm">
-          © {new Date().getFullYear()} {siteConfig.attribution}
+    <footer className="border-t border-border bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 text-center">
+        <p className="text-sm text-muted-foreground">
+          &copy; {new Date().getFullYear()} {siteConfig.attribution}
         </p>
       </div>
     </footer>

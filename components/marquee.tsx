@@ -19,7 +19,7 @@ export function Marquee() {
   return (
     <div
       aria-hidden="true"
-      className="w-full overflow-hidden border-y-2 border-foreground bg-foreground py-4"
+      className="w-full overflow-hidden border-y border-slate-200 bg-white py-4"
     >
       <div
         className="flex w-max gap-8 motion-safe:animate-[marquee_30s_linear_infinite]"
@@ -27,10 +27,10 @@ export function Marquee() {
         {items.map((keyword, i) => (
           <span
             key={`${keyword}-${i}`}
-            className="flex items-center gap-8 whitespace-nowrap font-heading text-lg font-bold uppercase tracking-wider text-background"
+            className="flex items-center gap-8 whitespace-nowrap text-lg font-bold uppercase tracking-wider text-slate-300"
           >
             {keyword}
-            <span className="inline-block h-2 w-2 rounded-full bg-accent" />
+            <span className="inline-block h-2 w-2 rounded-full bg-indigo-400" />
           </span>
         ))}
       </div>

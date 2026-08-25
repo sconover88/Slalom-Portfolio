@@ -1,119 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
   <!-- Background -->
-  <rect width="800" height="500" fill="#FFFDF5" rx="16"/>
-  
-  <!-- Decorative shapes -->
-  <circle cx="60" cy="60" r="30" fill="#FBBF24" opacity="0.3"/>
-  <polygon points="750,40 770,80 730,80" fill="#F472B6" opacity="0.3"/>
-  <circle cx="740" cy="440" r="20" fill="#34D399" opacity="0.3"/>
-  <rect x="30" y="420" width="25" height="25" fill="#8B5CF6" opacity="0.2" transform="rotate(45 42.5 432.5)"/>
-  
+  <rect width="1200" height="520" fill="#F8FAFC" rx="12"/>
+  <!-- Subtle decorative gradient fill -->
+  <rect x="0" y="0" width="1200" height="520" fill="#4F46E5" opacity="0.015" rx="12"/>
+
   <!-- Title -->
-  <text x="400" y="50" text-anchor="middle" font-family="Outfit, system-ui, sans-serif" font-size="22" font-weight="800" fill="#1E293B">Impact &amp; Results</text>
-  
-  <!-- Squiggly line under title -->
-  <path d="M280,62 Q310,52 340,62 T400,62 T460,62 T520,62" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="20" font-weight="800" fill="#0F172A">Impact &amp; Results</text>
 
   <!-- Stat Card 1: 10,000+ Users -->
-  <rect x="40" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="44" y="94" width="220" height="120" fill="none" rx="16" stroke="#8B5CF6" stroke-width="0"/>
-  <!-- Hard shadow -->
-  <rect x="46" y="96" width="220" height="120" fill="#8B5CF6" rx="16" opacity="0.15"/>
-  <rect x="40" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <!-- Icon circle -->
-  <circle cx="80" cy="130" r="20" fill="#8B5CF6"/>
-  <path d="M72,130 L80,122 L88,130 M80,122 L80,138" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Text -->
-  <text x="110" y="128" font-family="Outfit, system-ui, sans-serif" font-size="28" font-weight="800" fill="#8B5CF6">10,000+</text>
-  <text x="110" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Users Onboarded</text>
-  <!-- Sub text -->
-  <text x="60" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">Expanding to 50,000 users</text>
+  <rect x="40" y="90" width="270" height="120" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="80" cy="130" r="20" fill="#EEF2FF"/>
+  <path d="M72,130 L80,122 L88,130 M80,122 L80,138" fill="none" stroke="#4F46E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="110" y="128" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="28" font-weight="800" fill="#4F46E5">10,000+</text>
+  <text x="110" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Users Onboarded</text>
+  <text x="60" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#94A3B8">Expanding to 50,000 users</text>
 
   <!-- Stat Card 2: 20,000+ Proposals -->
-  <rect x="290" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="296" y="96" width="220" height="120" fill="#F472B6" rx="16" opacity="0.15"/>
-  <rect x="290" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <!-- Icon circle -->
-  <circle cx="330" cy="130" r="20" fill="#F472B6"/>
-  <rect x="321" y="122" width="18" height="16" fill="none" stroke="white" stroke-width="2.5" rx="2" stroke-linecap="round"/>
-  <path d="M326,130 L330,134 L338,126" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Text -->
-  <text x="360" y="128" font-family="Outfit, system-ui, sans-serif" font-size="28" font-weight="800" fill="#F472B6">20,000+</text>
-  <text x="360" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Proposals Created</text>
-  <text x="310" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">In the platform's first year</text>
+  <rect x="330" y="90" width="270" height="120" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="370" cy="130" r="20" fill="#EEF2FF"/>
+  <rect x="361" y="122" width="18" height="16" fill="none" stroke="#7C3AED" stroke-width="2.5" rx="2" stroke-linecap="round"/>
+  <path d="M366,130 L370,134 L378,126" fill="none" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="128" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="28" font-weight="800" fill="#7C3AED">20,000+</text>
+  <text x="400" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Proposals Created</text>
+  <text x="350" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#94A3B8">In the platform&#x2019;s first year</text>
 
   <!-- Stat Card 3: +3% Revenue -->
-  <rect x="540" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="546" y="96" width="220" height="120" fill="#FBBF24" rx="16" opacity="0.15"/>
-  <rect x="540" y="90" width="220" height="120" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <!-- Icon circle -->
-  <circle cx="580" cy="130" r="20" fill="#FBBF24"/>
-  <path d="M574,135 L580,128 L586,135 M574,126 L580,119 L586,126" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Text -->
-  <text x="610" y="128" font-family="Outfit, system-ui, sans-serif" font-size="28" font-weight="800" fill="#D97706">+3%</text>
-  <text x="610" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Revenue Goal</text>
-  <text x="560" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">Per user/team via AI optimization</text>
+  <rect x="620" y="90" width="270" height="120" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="660" cy="130" r="20" fill="#EEF2FF"/>
+  <path d="M654,135 L660,128 L666,135 M654,126 L660,119 L666,126" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="690" y="128" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="28" font-weight="800" fill="#10B981">+3%</text>
+  <text x="690" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Revenue Goal</text>
+  <text x="640" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#94A3B8">Per user/team via AI optimization</text>
 
-  <!-- Consolidation Graphic: 6 apps → 1 platform -->
-  <rect x="40" y="240" width="720" height="130" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="46" y="246" width="720" height="130" fill="#34D399" rx="16" opacity="0.1"/>
-  <rect x="40" y="240" width="720" height="130" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  
+  <!-- Stat Card 4: 6 &#x2192; 1 Consolidation -->
+  <rect x="910" y="90" width="250" height="120" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="950" cy="130" r="20" fill="#EEF2FF"/>
+  <rect x="942" y="122" width="16" height="16" fill="none" stroke="#4F46E5" stroke-width="2.5" rx="2"/>
+  <rect x="942" y="126" width="16" height="12" fill="#4F46E5" rx="1" opacity="0.3"/>
+  <text x="980" y="128" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="28" font-weight="800" fill="#0F172A">6 &#x2192; 1</text>
+  <text x="980" y="150" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Apps Consolidated</text>
+  <text x="930" y="185" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#94A3B8">Single unified platform</text>
+
+  <!-- Platform Consolidation Section -->
+  <rect x="40" y="230" width="1120" height="150" fill="#EEF2FF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="600" y="257" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Platform Consolidation</text>
+
   <!-- 6 small app boxes (before) -->
-  <text x="120" y="268" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="500" fill="#64748B">BEFORE</text>
-  <rect x="55" y="278" width="40" height="35" fill="#FEE2E2" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="105" y="278" width="40" height="35" fill="#FEF3C7" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="155" y="278" width="40" height="35" fill="#DBEAFE" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="55" y="322" width="40" height="35" fill="#E0E7FF" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="105" y="322" width="40" height="35" fill="#D1FAE5" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="155" y="322" width="40" height="35" fill="#FCE7F3" rx="6" stroke="#1E293B" stroke-width="1.5"/>
-  
-  <!-- X marks on old apps -->
-  <text x="75" y="300" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
-  <text x="125" y="300" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
-  <text x="175" y="300" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
-  <text x="75" y="344" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
-  <text x="125" y="344" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
-  <text x="175" y="344" text-anchor="middle" font-family="system-ui" font-size="14" fill="#EF4444">✕</text>
+  <text x="140" y="282" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">BEFORE</text>
+  <rect x="60" y="292" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="118" y="292" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="176" y="292" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="60" y="335" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="118" y="335" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="176" y="335" width="50" height="35" fill="#FFFFFF" rx="8" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- X marks -->
+  <text x="85" y="314" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
+  <text x="143" y="314" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
+  <text x="201" y="314" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
+  <text x="85" y="357" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
+  <text x="143" y="357" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
+  <text x="201" y="357" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" fill="#EF4444">&#x2715;</text>
 
   <!-- Arrow -->
-  <path d="M220,310 L320,310" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
-  <polygon points="320,304 335,310 320,316" fill="#1E293B"/>
-  
-  <!-- Single unified platform (after) -->
-  <text x="520" y="268" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="500" fill="#64748B">AFTER</text>
-  <rect x="360" y="278" width="320" height="80" fill="#F5F3FF" rx="12" stroke="#8B5CF6" stroke-width="2.5"/>
-  <circle cx="400" cy="318" r="16" fill="#8B5CF6"/>
-  <path d="M394,318 L400,312 L406,318 M400,312 L400,324" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
-  <text x="430" y="312" font-family="Outfit, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">Proposal Management Platform</text>
-  <text x="430" y="332" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12" fill="#64748B">One unified, AI-powered experience</text>
+  <path d="M250,330 L320,330" fill="none" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="320,325 335,330 320,335" fill="#0F172A"/>
 
+  <!-- Single unified platform (after) -->
+  <text x="700" y="282" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748B">AFTER</text>
+  <rect x="360" y="292" width="680" height="78" fill="#FFFFFF" rx="12" stroke="#4F46E5" stroke-width="1.5"/>
+  <circle cx="400" cy="331" r="16" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1"/>
+  <path d="M394,331 L400,325 L406,331 M400,325 L400,337" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+  <text x="425" y="326" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Proposal Management Platform</text>
+  <text x="425" y="344" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">One unified, AI-powered experience for all teams and regions</text>
 
   <!-- Bottom row: qualitative wins -->
-  <rect x="40" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="46" y="401" width="230" height="85" fill="#8B5CF6" rx="16" opacity="0.08"/>
-  <rect x="40" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="70" cy="425" r="14" fill="#8B5CF6"/>
-  <path d="M64,425 L68,429 L76,421" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="92" y="422" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Stakeholder</text>
-  <text x="92" y="440" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Recognition</text>
-  <text x="60" y="465" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Simplicity called out as key success</text>
+  <rect x="40" y="400" width="350" height="100" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="80" cy="435" r="14" fill="#EEF2FF"/>
+  <path d="M74,435 L78,439 L86,431" fill="none" stroke="#4F46E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="428" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Stakeholder Recognition</text>
+  <text x="102" y="446" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Simplicity called out as key success</text>
+  <text x="60" y="478" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#94A3B8">Monthly CEO-level updates throughout</text>
 
-  <rect x="285" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="291" y="401" width="230" height="85" fill="#F472B6" rx="16" opacity="0.08"/>
-  <rect x="285" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="315" cy="425" r="14" fill="#F472B6"/>
-  <path d="M309,425 L313,429 L321,421" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="337" y="422" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Sales Rep</text>
-  <text x="337" y="440" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Buy-In</text>
-  <text x="305" y="465" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Achieved before launch via co-design</text>
+  <rect x="425" y="400" width="350" height="100" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="465" cy="435" r="14" fill="#EEF2FF"/>
+  <path d="M459,435 L463,439 L471,431" fill="none" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="487" y="428" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Sales Rep Buy-In</text>
+  <text x="487" y="446" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Achieved before launch via co-design</text>
+  <text x="445" y="478" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#94A3B8">3-month diary study with 15 participants</text>
 
-  <rect x="530" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <rect x="536" y="401" width="230" height="85" fill="#34D399" rx="16" opacity="0.08"/>
-  <rect x="530" y="395" width="230" height="85" fill="#FFFFFF" rx="16" stroke="#1E293B" stroke-width="2"/>
-  <circle cx="560" cy="425" r="14" fill="#34D399"/>
-  <path d="M554,425 L558,429 L566,421" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="582" y="422" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Standardized</text>
-  <text x="582" y="440" font-family="Outfit, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Proposals</text>
-  <text x="550" y="465" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Consistent across all teams &amp; regions</text>
+  <rect x="810" y="400" width="350" height="100" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="850" cy="435" r="14" fill="#EEF2FF"/>
+  <path d="M844,435 L848,439 L856,431" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="872" y="428" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Standardized Proposals</text>
+  <text x="872" y="446" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#64748B">Consistent across all teams &amp; regions</text>
+  <text x="830" y="478" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#94A3B8">Eliminated inconsistent client materials</text>
 </svg>

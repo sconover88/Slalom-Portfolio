@@ -1,84 +1,79 @@
-# Playful Geometric Design System
+# Corporate Trust Design System
 
 ## Design Philosophy
 
-**Playful Geometric** is the antidote to sterile, corporate minimalism. It creates an emotional connection through **optimism, clarity, and tactile fun**.
+**Corporate Trust** embodies the modern enterprise SaaS aesthetic — professional yet approachable, sophisticated yet friendly. It draws inspiration from tech unicorns and high-growth startups that have successfully humanized the corporate experience.
 
-The core concept is **"Stable Grid, Wild Decoration"**. The content itself (text, forms) lives in clean, readable areas, but the world around it is alive with movement and shape. It references the **Memphis Group** (80s) but cleans it up for modern digital screens—removing the chaos while keeping the energy.
+The core concept is **"Trustworthy Yet Vibrant"** — establishing credibility through clean structure and professional typography while maintaining visual energy through vibrant gradients and colorful accents.
 
 ### The Vibe
-**Friendly. Tactile. Pop. Energetic.**
-It feels like a playground or a well-organized sticker book. It invites clicking. It smiles at you.
+**Trustworthy. Vibrant. Polished. Dimensional. Modern. Approachable. Enterprise-Ready. Elegant.**
 
 ### Visual Signatures
-- **Primitive Shapes**: Circles, triangles, squares, pill shapes, and squiggles used as background elements, masks, or icons.
-- **Hard Shadows**: Elements often have a hard, offset drop shadow (no blur) giving a sticker or cut-out paper feel.
-- **Pattern Fills**: Polka dots, grid lines, and diagonal stripes used to fill shapes or backgrounds.
-- **Varied Radii**: Mixing fully rounded corners with sharp ones to create "leaf" shapes or asymmetric blobs.
+- **Colored Shadows**: Soft shadows with indigo/violet tints instead of neutral grays
+- **Gradient Text**: Strategic use of indigo-to-violet gradient text for emphasis in headlines
+- **Soft Blobs**: Large, blurred gradient orbs in the background for atmospheric depth
+- **Elevated Cards**: White cards that lift on hover with enhanced colored shadows
+- **Dual-Tone Palette**: Indigo (primary) + Violet (secondary) creating a cohesive gradient spectrum
 
 ---
 
 ## Design Token System
 
 ### Colors (Light Mode)
-A punchy, high-saturation palette anchored by strong neutrals.
 
 ```
-background:        #FFFDF5    // Warm Cream/Off-White (Paper feel)
-foreground:        #1E293B    // Slate 800 (Softer than black)
+background:        #F8FAFC    // Slate 50 — Subtle cool grey/white base
+foreground:        #0F172A    // Slate 900 — High contrast text
+card:              #FFFFFF    // White — Raised elements
+primary:           #4F46E5    // Indigo 600 — Core brand color
+secondary:         #7C3AED    // Violet 600 — Gradients and accents
 muted:             #F1F5F9    // Slate 100
-mutedForeground:   #64748B    // Slate 500
-accent:            #8B5CF6    // Vivid Violet (Primary Brand)
-accentForeground:  #FFFFFF    // White
-secondary:         #F472B6    // Hot Pink (Playful pop)
-tertiary:          #FBBF24    // Amber/Yellow (Optimism)
-quaternary:        #34D399    // Emerald/Mint (Freshness)
-border:            #E2E8F0    // Slate 200
-input:             #FFFFFF    // White
-card:              #FFFFFF    // White
-ring:              #8B5CF6    // Violet Focus
+mutedForeground:   #64748B    // Slate 500 — Supporting text
+accent:            #10B981    // Emerald 500 — Positive indicators
+border:            #E2E8F0    // Slate 200 — Subtle separation
+ring:              #4F46E5    // Indigo 600 — Focus states
 ```
-
-**Usage Rule**: Use `accent` for primary actions. Use `secondary`, `tertiary`, and `quaternary` rotationally for decorative shapes, icons, or emphasized words to create a "confetti" effect.
 
 ### Typography
 
-**Headings**: `"Outfit", system-ui, sans-serif`
-- A geometric sans with character. Rounded corners on letters make it friendly.
-- **Weights**: Bold (700) or ExtraBold (800).
+**Font Family**: `"Plus Jakarta Sans", system-ui, sans-serif` — Used for everything (headings and body).
 
-**Body**: `"Plus Jakarta Sans", system-ui, sans-serif`
-- Highly legible, modern, geometric but humanist.
-- **Weights**: Regular (400), Medium (500).
+**Font Weights**:
+- Display/Headings: ExtraBold (800) for hero headlines, Bold (700) for section headings
+- Subheadings: SemiBold (600) for card titles and emphasis
+- Body Text: Regular (400) for paragraphs, Medium (500) for navigation and labels
 
-**Scale Ratio**: 1.25 (Major Third) - melodic and harmonious.
+**Line Heights**:
+- Headlines: 1.1 (tight tracking for impact)
+- Body Text: 1.6-1.7 (relaxed for readability)
+
+**Letter Spacing**: Tight tracking (-0.02em) on large headlines for modern polish
 
 ### Radius & Border
 
 ```
-radius-sm:   8px
-radius-md:   16px
-radius-lg:   24px
-radius-full: 9999px
-border-width: 2px     // Chunky borders by default
+radius-lg:   8px     // Inputs
+radius-xl:   12px    // Cards
+radius-full: 9999px  // Buttons (pill)
+border-width: 1px    // Thin borders
 ```
-
-**Special "Blob" Radius**: `rounded-tl-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-none` (Speech bubble style) or `rounded-t-full rounded-b-none` (Arch).
 
 ### Shadows & Effects
 
-**The "Pop" Shadow (Hard Shadow)**:
+**Colored Shadows** (indigo-tinted):
 ```
-box-shadow: 4px 4px 0px 0px #1E293B;  // Dark hard shadow
-box-shadow-hover: 6px 6px 0px 0px #1E293B; // Lift effect
-box-shadow-active: 2px 2px 0px 0px #1E293B; // Press effect
+shadow-soft:    0 4px 20px -2px rgba(79, 70, 229, 0.1)
+shadow-hover:   0 10px 25px -5px rgba(79, 70, 229, 0.15), 0 8px 10px -6px rgba(79, 70, 229, 0.1)
+shadow-button:  0 4px 14px 0 rgba(79, 70, 229, 0.3)
 ```
-No blur. Solid offset colors.
 
-### Textures & Patterns
-- **Dot Grid**: A background of small dots (`bg-[url(...)]`) in strict formation.
-- **Squiggles**: SVG paths used as section dividers or underlining for headings.
-- **Confetti**: Small SVG shapes (triangles, circles) absolutely positioned behind main content blocks.
+**Gradients**:
+- Primary: `from-indigo-600 to-violet-600` — Buttons and active states
+- Text: `bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent`
+- Background: Subtle `from-indigo-100 to-violet-100` for containers
+
+**Background Blobs**: Large gradient orbs with blur-3xl, positioned absolutely, low opacity (20-40%)
 
 ---
 
@@ -86,112 +81,71 @@ No blur. Solid offset colors.
 
 ### Buttons
 
-**Primary Button ("The Candy Button")**:
-```
-- Bg: accent (#8B5CF6)
-- Text: white, font-weight: 700
-- Radius: rounded-full (Pill)
-- Border: 2px solid #1E293B (Dark border around color)
-- Shadow: 4px 4px 0px #1E293B (Hard shadow)
-- Hover: translate-x-[-2px] translate-y-[-2px], shadow extends to 6px 6px
-- Active: translate-x-[2px] translate-y-[2px], shadow shrinks to 2px 2px
-- Icon: ArrowRight, circular background (white) inside button
-```
+**Primary**:
+- Background: gradient (Indigo to Violet)
+- Text: white, font-weight 600
+- Radius: rounded-full (pill)
+- Shadow: shadow-button
+- Hover: -translate-y-0.5, increased shadow
 
-**Secondary Button**:
-```
-- Bg: transparent
-- Text: foreground
-- Border: 2px solid #1E293B
-- Radius: rounded-full
-- Shadow: none
-- Hover: bg-tertiary (#FBBF24) - Fills with yellow on hover
-```
+**Secondary**:
+- Background: white
+- Border: 1px border-slate-200
+- Text: Slate 700
+- Hover: bg-slate-50, darker border
 
 ### Cards
 
-**The "Sticker" Card**:
-```
-- Bg: white
-- Border: 2px solid #1E293B
-- Radius: rounded-xl
-- Shadow: 8px 8px 0px #E2E8F0 (Soft hard shadow) or #F472B6 (Pink shadow for featured)
-- Hover: Rotate -1deg, Scale 1.02 (Wiggle effect)
-- Title: Bold Outfit font
-- Icon: Floating circle div with centered icon, sitting half-in/half-out of the top border.
-```
+**Base**: White bg, rounded-xl, border border-slate-100, shadow-soft
+**Hover**: -translate-y-1, shadow-hover
+**Transition**: duration-200 ease-out
 
-### Inputs
-```
-- Bg: white
-- Border: 2px solid #CBD5E1
-- Radius: rounded-lg
-- Text: foreground
-- Shadow: 4px 4px 0px transparent (hidden initially)
-- Focus: Border accent, Shadow 4px 4px 0px accent (Hard color shadow on focus)
-- Label: Bold, uppercase, small tracking-wide.
-```
+### Navigation
+
+- Clean white background with subtle bottom border
+- Plus Jakarta Sans Medium (500) for links
+- Primary gradient button for CTA
+- Smooth hover transitions on links
 
 ---
 
-## Layout Strategy
+## Animation & Transitions
 
-### General
-- **Container**: `max-w-6xl` (Generous width).
-- **Spacing**: `py-24` (96px). Spacious but not empty; filled with patterns.
-- **Grid**: 12-column logic, but grouped into big blocks (6/6 or 4/4/4).
+**Philosophy**: "Refined Motion" — Smooth, professional, never jarring
 
-### Unique Section Layouts
-
-1.  **Hero**:
-    - Text left, Image right.
-    - **Decoration**: A massive yellow circle behind the text. A dotted pattern behind the image. The image itself has a "blob" mask (CSS clip-path or border-radius manipulation).
-
-2.  **Features**:
-    - Grid of 3.
-    - **Decoration**: Each card is connected by a dashed SVG line drawn in the background.
-    - Alternating colors for card headers (Violet, Pink, Yellow).
-
-3.  **Pricing**:
-    - The middle card is scaled up (1.1) and has a massive yellow star badge "MOST POPULAR" rotated 15deg.
-
----
-
-## Effects & Animation
-
-**Feel**: Bouncy, Elastic, Fun.
-
-- **Hover**: `transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]` (Overshoot/Bounciness).
-- **Entrance**: Elements shouldn't just fade in; they should **pop** in (Scale 0->1 with bounce).
-- **Marquee**: Use infinite scrolling text for client logos or keywords.
-- **Wiggle**: Keyframe animation `rotate: 0deg -> 3deg -> -3deg -> 0deg` on hover for icons.
+- Base: `transition-all duration-200 ease-out`
+- Cards: `hover:-translate-y-1` with shadow enhancement
+- Buttons: `hover:-translate-y-0.5` for subtle lift
+- Icons: `group-hover:translate-x-1` for directional cues
+- Pulse: `animate-pulse duration-[4000ms]` on decorative blob elements
+- Respect `prefers-reduced-motion`
 
 ---
 
 ## Iconography
 
-**Lucide React** settings:
-- **Stroke Width**: `2.5px` (Bold/Chunky).
-- **Style**: Round line caps, round line joins.
-- **Color**: Often white inside a colored circle, or the dark foreground color.
-- **Usage**: Enclosed in shapes. Never floating alone. A "Check" icon isn't just a check; it's a check inside a green circle.
+**Library**: Lucide React
+- Stroke width: 2px (standard)
+- Size: h-4 w-4 inline, h-5 w-5 or h-6 w-6 featured
+- Color: text-indigo-600 on bg-indigo-100 containers
+- Accessibility: Decorative icons hidden from screen readers
 
 ---
 
 ## Responsive Strategy
 
-- **Mobile**:
-  - Stack everything.
-  - Reduce "pop" shadows to 2px to save space.
-  - Turn horizontal squiggle lines into vertical dividers.
-  - Keep buttons big and tappable (min 48px height).
-  - Hide complex background floating shapes that might overlap text.
+- Mobile-first with progressive enhancement
+- Touch targets: minimum 44x44px
+- Headlines: text-4xl mobile → text-6xl desktop
+- Two-column layouts stack on mobile
+- Text width: max-w-xl or max-w-2xl for readability (60-75 chars)
 
 ---
 
-## Accessibility & Best Practices
+## Accessibility
 
-- **Contrast**: The text is slate-800 on off-white/white, which is AAA.
-- **Color**: Never rely *only* on color. Use shapes and text labels.
-- **Motion**: Respect `prefers-reduced-motion`. Disable the "bounce" and "wiggle" effects if preferred.
-- **Focus**: The focus state is high-contrast (thick colored border + hard shadow).
+- WCAG AA color contrast for all text
+- Focus: ring-2 ring-indigo-500 ring-offset-2
+- Semantic HTML throughout
+- prefers-reduced-motion respected
+- Descriptive alt text on all images

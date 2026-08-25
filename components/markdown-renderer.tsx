@@ -32,10 +32,7 @@ const ZOOMABLE_IMAGES: Record<string, { zoomTargets: { label: string; x: number;
 const components: Components = {
   h2: ({ children, ...props }) => (
     <h2
-      className={cn(
-        "font-heading text-2xl font-bold",
-        "mb-6 mt-10 border-b-2 border-border pb-2"
-      )}
+      className="text-2xl font-bold text-slate-900 mb-6 mt-10 border-b border-slate-200 pb-2"
       {...props}
     >
       {children}
@@ -43,7 +40,7 @@ const components: Components = {
   ),
   h3: ({ children, ...props }) => (
     <h3
-      className={cn("font-heading text-xl font-bold", "mb-4 mt-8")}
+      className="text-xl font-bold text-slate-900 mb-4 mt-8"
       {...props}
     >
       {children}
@@ -65,7 +62,7 @@ const components: Components = {
     }
     return (
       <p
-        className={cn("font-body text-base leading-relaxed", "mb-4")}
+        className="text-base text-slate-700 leading-relaxed mb-4"
         {...props}
       >
         {children}
@@ -73,22 +70,22 @@ const components: Components = {
     )
   },
   ul: ({ children, ...props }) => (
-    <ul className={cn("mb-4 list-disc space-y-2 pl-6")} {...props}>
+    <ul className="mb-4 list-disc space-y-2 pl-6" {...props}>
       {children}
     </ul>
   ),
   ol: ({ children, ...props }) => (
-    <ol className={cn("mb-4 list-decimal space-y-2 pl-6")} {...props}>
+    <ol className="mb-4 list-decimal space-y-2 pl-6" {...props}>
       {children}
     </ol>
   ),
   li: ({ children, ...props }) => (
-    <li className="text-base" {...props}>
+    <li className="text-base text-slate-700" {...props}>
       {children}
     </li>
   ),
   strong: ({ children, ...props }) => (
-    <strong className="font-bold" {...props}>
+    <strong className="font-semibold text-slate-900" {...props}>
       {children}
     </strong>
   ),
@@ -99,10 +96,7 @@ const components: Components = {
   ),
   blockquote: ({ children, ...props }) => (
     <blockquote
-      className={cn(
-        "border-l-4 border-accent pl-4",
-        "my-4 italic text-muted-foreground"
-      )}
+      className="border-l-4 border-indigo-500 pl-4 my-4 italic text-slate-600"
       {...props}
     >
       {children}
@@ -119,7 +113,7 @@ const components: Components = {
       return (
         <span className="my-6 block">
           <span className="flex flex-col gap-2">
-            <span className="font-heading text-xs font-bold text-muted-foreground uppercase tracking-wide">Full Service Design Blueprint</span>
+            <span className="text-xs font-bold text-muted-foreground uppercase tracking-wide">Full Service Design Blueprint</span>
           </span>
           <ZoomableImage
             src={resolvedSrc}
@@ -158,7 +152,7 @@ const components: Components = {
   a: ({ children, href, ...props }) => (
     <a
       href={href}
-      className="text-accent underline hover:text-accent/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+      className="text-indigo-600 underline hover:text-indigo-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
       {...props}
     >
       {children}
@@ -168,7 +162,7 @@ const components: Components = {
 
 export function MarkdownRenderer({ content }: MarkdownRendererProps) {
   return (
-    <div className="prose-playful max-w-none">
+    <div className="prose-corporate max-w-none">
       <ReactMarkdown components={components}>{content}</ReactMarkdown>
     </div>
   )

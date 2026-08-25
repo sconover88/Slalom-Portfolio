@@ -114,7 +114,7 @@ export function ZoomableImage({ src, alt, zoomTargets = [] }: ZoomableImageProps
       <div
         ref={containerRef}
         className={cn(
-          "relative overflow-hidden rounded-2xl border-2 border-foreground bg-muted",
+          "relative overflow-hidden rounded-xl border border-slate-200 bg-muted",
           scale > 1 ? "cursor-grab" : "cursor-zoom-in",
           isDragging && hasDragged && "cursor-grabbing"
         )}
@@ -130,34 +130,34 @@ export function ZoomableImage({ src, alt, zoomTargets = [] }: ZoomableImageProps
             onClick={zoomIn}
             aria-label="Zoom in"
             className={cn(
-              "flex h-9 w-9 items-center justify-center rounded-full border-2 border-foreground bg-card",
-              "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-              "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]"
+              "flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white",
+              "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+              "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)] hover:bg-slate-50"
             )}
           >
-            <ZoomIn className="h-4 w-4 text-foreground" strokeWidth={2.5} />
+            <ZoomIn className="h-4 w-4 text-slate-600" strokeWidth={2} />
           </button>
           <button
             onClick={zoomOut}
             aria-label="Zoom out"
             className={cn(
-              "flex h-9 w-9 items-center justify-center rounded-full border-2 border-foreground bg-card",
-              "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-              "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]"
+              "flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white",
+              "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+              "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)] hover:bg-slate-50"
             )}
           >
-            <ZoomOut className="h-4 w-4 text-foreground" strokeWidth={2.5} />
+            <ZoomOut className="h-4 w-4 text-slate-600" strokeWidth={2} />
           </button>
           <button
             onClick={resetView}
             aria-label="Reset view"
             className={cn(
-              "flex h-9 w-9 items-center justify-center rounded-full border-2 border-foreground bg-card",
-              "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-              "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]"
+              "flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-white",
+              "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+              "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)] hover:bg-slate-50"
             )}
           >
-            <Maximize2 className="h-4 w-4 text-foreground" strokeWidth={2.5} />
+            <Maximize2 className="h-4 w-4 text-slate-600" strokeWidth={2} />
           </button>
 
           {/* Zoom target buttons */}
@@ -166,10 +166,10 @@ export function ZoomableImage({ src, alt, zoomTargets = [] }: ZoomableImageProps
               key={target.label}
               onClick={() => jumpToTarget(target)}
               className={cn(
-                "inline-flex items-center rounded-full border-2 border-foreground px-3 py-1",
-                "font-heading text-xs font-bold text-foreground bg-card",
-                "shadow-[2px_2px_0px_0px_#1E293B] transition-all duration-200",
-                "hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_0px_#1E293B]"
+                "inline-flex items-center rounded-full border border-slate-200 px-3 py-1",
+                "text-xs font-semibold text-slate-700 bg-white",
+                "shadow-[0_2px_8px_-2px_rgba(79,70,229,0.1)] transition-all duration-200",
+                "hover:-translate-y-0.5 hover:shadow-[0_4px_12px_-2px_rgba(79,70,229,0.15)] hover:bg-slate-50"
               )}
             >
               {target.label}
@@ -188,7 +188,7 @@ export function ZoomableImage({ src, alt, zoomTargets = [] }: ZoomableImageProps
         />
       </div>
 
-      <p className="font-body text-xs text-muted-foreground text-center mt-2">
+      <p className="text-xs text-muted-foreground text-center mt-2">
         Scroll to zoom · Drag to pan
       </p>
     </div>

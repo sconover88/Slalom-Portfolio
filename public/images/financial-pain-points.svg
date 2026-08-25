@@ -1,86 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
   <!-- Background -->
-  <rect width="1200" height="500" fill="#FFFDF5" rx="16"/>
-  
-  <!-- Decorative -->
-  <circle cx="60" cy="50" r="25" fill="#F472B6" opacity="0.08"/>
-  <circle cx="1140" cy="450" r="20" fill="#34D399" opacity="0.08"/>
+  <rect width="1200" height="500" fill="#F8FAFC" rx="12"/>
+  <!-- Subtle decorative gradient fill -->
+  <rect x="0" y="0" width="1200" height="500" fill="#4F46E5" opacity="0.015" rx="12"/>
 
   <!-- Title -->
-  <text x="600" y="40" text-anchor="middle" font-family="Outfit, system-ui, sans-serif" font-size="18" font-weight="800" fill="#1E293B">Current State Pain Points</text>
-  <text x="600" y="58" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#64748B">Key friction areas identified across clients, advisors, and the home office</text>
+  <text x="600" y="40" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="18" font-weight="800" fill="#0F172A">Current State Pain Points</text>
+  <text x="600" y="58" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#64748B">Key friction areas identified across clients, advisors, and the home office</text>
 
   <!-- Left side: 4 Pain Point cards stacked vertically -->
   <!-- Pain Point 1 -->
-  <rect x="140" y="80" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#1E293B" stroke-width="2"/>
+  <rect x="140" y="80" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
   <circle cx="168" cy="108" r="12" fill="#EF4444"/>
-  <text x="168" y="108" text-anchor="middle" dominant-baseline="central" font-family="system-ui" font-size="11" fill="white" font-weight="bold">!</text>
-  <text x="188" y="106" font-family="Outfit, system-ui" font-size="11" font-weight="700" fill="#1E293B">No Visibility for Clients</text>
-  <text x="155" y="128" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">No centralized place to view accounts, track activity,</text>
-  <text x="155" y="141" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">or take action independently</text>
+  <text x="168" y="108" text-anchor="middle" dominant-baseline="central" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="white" font-weight="bold">!</text>
+  <text x="188" y="106" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F172A">No Visibility for Clients</text>
+  <text x="155" y="128" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">No centralized place to view accounts, track activity,</text>
+  <text x="155" y="141" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">or take action independently</text>
 
   <!-- Pain Point 2 -->
-  <rect x="140" y="177" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#1E293B" stroke-width="2"/>
+  <rect x="140" y="177" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
   <circle cx="168" cy="205" r="12" fill="#EF4444"/>
-  <text x="168" y="205" text-anchor="middle" dominant-baseline="central" font-family="system-ui" font-size="11" fill="white" font-weight="bold">!</text>
-  <text x="188" y="203" font-family="Outfit, system-ui" font-size="11" font-weight="700" fill="#1E293B">Advisors Stretched Thin</text>
-  <text x="155" y="225" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Fielding routine requests that a self-service platform</text>
-  <text x="155" y="238" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">could handle digitally</text>
+  <text x="168" y="205" text-anchor="middle" dominant-baseline="central" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="white" font-weight="bold">!</text>
+  <text x="188" y="203" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Advisors Stretched Thin</text>
+  <text x="155" y="225" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Fielding routine requests that a self-service platform</text>
+  <text x="155" y="238" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">could handle digitally</text>
 
   <!-- Pain Point 3 -->
-  <rect x="140" y="274" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#1E293B" stroke-width="2"/>
+  <rect x="140" y="274" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
   <circle cx="168" cy="302" r="12" fill="#EF4444"/>
-  <text x="168" y="302" text-anchor="middle" dominant-baseline="central" font-family="system-ui" font-size="11" fill="white" font-weight="bold">!</text>
-  <text x="188" y="300" font-family="Outfit, system-ui" font-size="11" font-weight="700" fill="#1E293B">Document Handling Pain Point</text>
-  <text x="155" y="322" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Back-and-forth emails, third-party troubleshooting,</text>
-  <text x="155" y="335" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">significant manual effort from both sides</text>
+  <text x="168" y="302" text-anchor="middle" dominant-baseline="central" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="white" font-weight="bold">!</text>
+  <text x="188" y="300" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Document Handling Pain Point</text>
+  <text x="155" y="322" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Back-and-forth emails, third-party troubleshooting,</text>
+  <text x="155" y="335" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">significant manual effort from both sides</text>
 
   <!-- Pain Point 4 -->
-  <rect x="140" y="371" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#1E293B" stroke-width="2"/>
+  <rect x="140" y="371" width="340" height="85" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
   <circle cx="168" cy="399" r="12" fill="#EF4444"/>
-  <text x="168" y="399" text-anchor="middle" dominant-baseline="central" font-family="system-ui" font-size="11" fill="white" font-weight="bold">!</text>
-  <text x="188" y="397" font-family="Outfit, system-ui" font-size="11" font-weight="700" fill="#1E293B">No Standardized Digital Experience</text>
-  <text x="155" y="419" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">Company behind in an industry defined by intuitive,</text>
-  <text x="155" y="432" font-family="Plus Jakarta Sans, system-ui" font-size="9" fill="#1E293B">user-empowering platforms</text>
+  <text x="168" y="399" text-anchor="middle" dominant-baseline="central" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="white" font-weight="bold">!</text>
+  <text x="188" y="397" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F172A">No Standardized Digital Experience</text>
+  <text x="155" y="419" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">Company behind in an industry defined by intuitive,</text>
+  <text x="155" y="432" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" fill="#0F172A">user-empowering platforms</text>
 
   <!-- Arrow pointing right -->
-  <path d="M500,270 L540,270" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
-  <polygon points="540,264 558,270 540,276" fill="#1E293B"/>
+  <path d="M500,270 L540,270" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="540,264 558,270 540,276" fill="#0F172A"/>
 
   <!-- Right side: Solution box -->
-  <rect x="580" y="110" width="440" height="320" fill="#ECFDF5" rx="16" stroke="#34D399" stroke-width="2.5"/>
+  <rect x="580" y="110" width="440" height="320" fill="#ECFDF5" rx="12" stroke="#10B981" stroke-width="1.5"/>
   
   <!-- Centered content inside solution box -->
-  <circle cx="630" cy="160" r="22" fill="#34D399"/>
+  <circle cx="630" cy="160" r="22" fill="#10B981"/>
   <path d="M623,160 L628,165 L637,156" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="660" y="155" font-family="Outfit, system-ui" font-size="16" font-weight="700" fill="#1E293B">Build a V1 MVP</text>
-  <text x="660" y="175" font-family="Outfit, system-ui" font-size="16" font-weight="700" fill="#1E293B">Dashboard</text>
+  <text x="660" y="155" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Build a V1 MVP</text>
+  <text x="660" y="175" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Dashboard</text>
 
-  <text x="615" y="210" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">Empower users to manage finances</text>
-  <text x="615" y="225" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">independently while laying the groundwork</text>
-  <text x="615" y="240" font-family="Plus Jakarta Sans, system-ui" font-size="10" fill="#1E293B">for a scalable, future-ready platform.</text>
+  <text x="615" y="210" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">Empower users to manage finances</text>
+  <text x="615" y="225" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">independently while laying the groundwork</text>
+  <text x="615" y="240" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="10" fill="#0F172A">for a scalable, future-ready platform.</text>
 
   <!-- Key goals -->
-  <circle cx="625" cy="270" r="5" fill="#34D399"/>
-  <text x="639" y="274" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#1E293B">Centralized financial visibility</text>
+  <circle cx="625" cy="270" r="5" fill="#10B981"/>
+  <text x="639" y="274" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#0F172A">Centralized financial visibility</text>
 
-  <circle cx="625" cy="295" r="5" fill="#34D399"/>
-  <text x="639" y="299" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#1E293B">Self-service capabilities</text>
+  <circle cx="625" cy="295" r="5" fill="#10B981"/>
+  <text x="639" y="299" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#0F172A">Self-service capabilities</text>
 
-  <circle cx="625" cy="320" r="5" fill="#34D399"/>
-  <text x="639" y="324" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#1E293B">Streamlined document handling</text>
+  <circle cx="625" cy="320" r="5" fill="#10B981"/>
+  <text x="639" y="324" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#0F172A">Streamlined document handling</text>
 
-  <circle cx="625" cy="345" r="5" fill="#34D399"/>
-  <text x="639" y="349" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#1E293B">Modern digital experience</text>
+  <circle cx="625" cy="345" r="5" fill="#10B981"/>
+  <text x="639" y="349" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#0F172A">Modern digital experience</text>
 
-  <circle cx="625" cy="370" r="5" fill="#34D399"/>
-  <text x="639" y="374" font-family="Plus Jakarta Sans, system-ui" font-size="11" fill="#1E293B">Foundation for future state</text>
+  <circle cx="625" cy="370" r="5" fill="#10B981"/>
+  <text x="639" y="374" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="11" fill="#0F172A">Foundation for future state</text>
 
   <!-- Personas -->
-  <rect x="615" y="395" width="70" height="22" rx="11" fill="#8B5CF6"/>
-  <text x="650" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="white">Clients</text>
-  <rect x="693" y="395" width="75" height="22" rx="11" fill="#34D399"/>
-  <text x="730" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#1E293B">Advisors</text>
-  <rect x="776" y="395" width="90" height="22" rx="11" fill="#FBBF24"/>
-  <text x="821" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui" font-size="9" font-weight="600" fill="#1E293B">Home Office</text>
+  <rect x="615" y="395" width="70" height="22" rx="11" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="650" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#4F46E5">Clients</text>
+  <rect x="693" y="395" width="75" height="22" rx="11" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="730" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#10B981">Advisors</text>
+  <rect x="776" y="395" width="90" height="22" rx="11" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="821" y="410" text-anchor="middle" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" font-weight="600" fill="#4F46E5">Home Office</text>
 </svg>

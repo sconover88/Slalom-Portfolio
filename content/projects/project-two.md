@@ -1,7 +1,7 @@
 ---
 title: "Reimagining Financial Self-Service: MVP Design & Future State Vision"
 description: "Led UX research, service design, and end-to-end product design for a financial services dashboard MVP and future state vision for a major financial services company."
-thumbnail: "financial-dashboard-thumbnail.jpg"
+thumbnail: "financial-dashboard/thumbnail.jpg"
 role: "UX Designer & Strategist"
 tools:
   - "Figma"
@@ -36,7 +36,7 @@ images:
   - "financial-dashboard-placeholder-8.png"
 ---
 
-![Current state pain points and opportunity areas](financial-pain-points.svg)
+![Current state pain points and opportunity areas](financial-dashboard/pain-points.svg)
 
 ---
 
@@ -48,7 +48,7 @@ I joined the engagement a few weeks after the UX Strategist had begun, stepping 
 - **Research Synthesis** — Using **Miro** and AI-assisted analysis, I synthesized findings from all 15 sessions to identify key themes, pain points, user needs, and business goals. This synthesis formed the foundation for every design decision that followed.
 - **Research Presentation** — I created and co-presented a comprehensive **PowerPoint deck** to stakeholders, walking through research findings, insights, and recommendations. The presentation was designed to build alignment and buy-in before moving into design — and it did exactly that.
 
-![Research synthesis and insights from stakeholder and user interviews](financial-research-card-style.svg)
+![Research synthesis and insights from stakeholder and user interviews](financial-dashboard/research-themes.svg)
 
 ---
 
@@ -60,7 +60,7 @@ With research complete, I began building the **Service Design Blueprint** — a 
 - As the project progressed, I facilitated **blueprint conversations with the technology team and multiple Subject Matter Experts (SMEs)** to validate assumptions, fill in gaps, and ensure the blueprint accurately reflected the full complexity of the system.
 - The completed blueprint was delivered as a final artifact to the client, serving as a shared reference point for both the MVP and future state planning.
 
-![Completed service design blueprint](financial-blueprint.svg)
+![Completed service design blueprint](financial-dashboard/service-blueprint.svg)
 
 ---
 
@@ -74,7 +74,7 @@ I stepped in to help lead and accelerate that migration:
 - Shared **best practices to avoid rework** — including guidance on how to structure designs and prototypes so that the migration wouldn't require rebuilding from scratch.
 - Contributed to the migration of **300+ components**, helping the team establish a more scalable and maintainable design foundation going forward.
 
-![Design system migration from Material Design to Salesforce Lightning Design System](financial-design-system-migration.svg)
+![Design system migration from Material Design to Salesforce Lightning Design System](financial-dashboard/design-system-migration.svg)
 
 ---
 
@@ -94,9 +94,9 @@ The MVP was focused and purposeful — delivering five core features that addres
 
 Throughout the MVP design process, I worked closely with stakeholders to refine and finalize the scope, ensuring every decision was grounded in both user needs and business priorities.
 
-![MVP dashboard designs — overview and account balances](financial-dashboard-placeholder-5.png)
+![MVP dashboard designs — overview and account balances](financial-dashboard/mvp-dashboard-designs.png)
 
-![MVP to Future State evolution](financial-mvp-to-future.svg)
+![MVP to Future State evolution](financial-dashboard/mvp-to-future.svg)
 
 ### Future State Vision
 
@@ -131,7 +131,7 @@ Rather than forcing users to seek help, the assistant was context-aware — surf
 
 The assistant could help users with account recommendations, opening new accounts, navigating features, and more. Critically, **advisors had full visibility into all AI interactions**, allowing them to review what their clients were asking and use those insights to provide more informed, proactive support. This feature was designed to bridge the gap between self-service empowerment and the trusted advisor relationship that was central to the company's identity.
 
-![Future state vision — AI assistant and advanced dashboard features](financial-dashboard-placeholder-6.png)![Future state prototypes — document management and financial goals](financial-dashboard-placeholder-7.png)
+![Future state vision — AI assistant and advanced dashboard features](financial-dashboard/future-state-ai-assistant.png)![Future state prototypes — document management and financial goals](financial-dashboard/future-state-documents-goals.png)
 
 ---
 
@@ -149,4 +149,4 @@ The assistant could help users with account recommendations, opening new account
 
 ## Metrics & Impact
 
-![Impact and results for the financial dashboard project](financial-dashboard-metrics.svg)
+![Impact and results for the financial dashboard project](financial-dashboard/impact-results.svg)

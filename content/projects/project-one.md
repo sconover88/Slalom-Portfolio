@@ -1,7 +1,7 @@
 ---
 title: "Unifying the Proposal Experience: A Multi-Platform Consolidation"
 description: "Designed an end-to-end proposal management platform that consolidated six legacy tools into one intelligent, AI-powered experience for a major cable & media company."
-thumbnail: "proposal-management-platform-thumbnail.jpg"
+thumbnail: "proposal-platform/thumbnail.jpg"
 role: "UX Designer"
 tools:
   - "Figma"
@@ -22,7 +22,7 @@ order: 1
 date: "July 2022 - August 2025"
 ---
 
-![Current state fragmentation across six legacy applications](proposal-current-state.svg)
+![Current state fragmentation across six legacy applications](proposal-platform/fragmented-process.svg)
 
 ---
 
@@ -38,7 +38,7 @@ Research findings were synthesized and presented back to stakeholders in dedicat
 
 Throughout the entire engagement, we maintained a cadence of **weekly cross-functional meetings** with stakeholders, product owners, scrum masters, project managers, and developers — using these touchpoints for design reviews, feasibility discussions, concept approvals, and ongoing alignment.
 
-![Service design blueprint and journey mapping artifacts](proposal-management-placeholder-2.png)
+![Service design blueprint and journey mapping artifacts](proposal-platform/service-blueprint.png)
 
 ---
 
@@ -56,7 +56,7 @@ Phase 1 had a focused goal: **ensure that everything a user could do across the 
 
 Once designs were approved, Phase 1 was launched to a **pilot group of 15 users**. To gather real-world feedback, we conducted a **3-month diary study** with approximately 15 active participants — capturing how users interacted with the application in their actual work environment, surfacing usability issues, and validating our design decisions.
 
-![Phase 1 wireframes and proposal creation flow](proposal-creation-flow.svg)
+![Phase 1 wireframes and proposal creation flow](proposal-platform/creation-flow.svg)
 
 ![Phase 1 high-fidelity UI screens](proposal-management-placeholder-4.png)
 
@@ -75,7 +75,7 @@ Key design decisions included:
 - **Personalizations** — A dedicated step allowed users to include or exclude specific channels or websites, giving them granular control over the final proposal.
 - **Presentation Generation** — The platform automatically generated a polished, client-facing digital presentation. Users could also download standardized assets for use in their own presentations — directly addressing a stakeholder pain point around inconsistent client-facing materials.
 
-![AI-powered side-by-side proposal comparison UI](proposal-management-placeholder-5.png)
+![AI-powered side-by-side proposal comparison UI](proposal-platform/ai-comparison-ui.png)
 
 Phase 2 launched to a **test group of 30 users**, eventually expanding to **10,000 users** ahead of a full rollout planned for **50,000 users**.
 
@@ -94,7 +94,7 @@ One of my most significant and sustained contributions to this project was the *
 - **Team enablement** — I led multiple **Lunch & Learn sessions** and internal training workshops covering Figma best practices and how to effectively use and contribute to the design system, ensuring consistency across the team as the project scaled.
 - **Ongoing maintenance** — As the product evolved, I continuously maintained and expanded the system to support new features and design patterns, keeping it a reliable source of truth for the entire team.
 
-![Design system component library overview](proposal-management-placeholder-7.png)
+![Design system component library overview](proposal-platform/design-system-components.png)
 
 ---
 
@@ -115,4 +115,4 @@ One of my most significant and sustained contributions to this project was the *
 
 ## Metrics & Impact
 
-![Infographic showing 10,000+ users, 20,000+ proposals, +3% revenue goal, and six legacy apps consolidated into one platform](proposal-management-metrics.svg)
+![Infographic showing 10,000+ users, 20,000+ proposals, +3% revenue goal, and six legacy apps consolidated into one platform](proposal-platform/impact-results.svg)

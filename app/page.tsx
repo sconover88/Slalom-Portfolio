@@ -86,7 +86,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl bg-white p-3 shadow-[0_4px_20px_-2px_rgba(79,70,229,0.1)]">
                 <Image
-                  src="/images/scott-headshot.JPG"
+                  src="/images/shared/scott-headshot.jpg"
                   alt="Scott Conover smiling in a navy blazer against a neutral background"
                   width={500}
                   height={600}

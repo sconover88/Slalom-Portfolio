@@ -77,7 +77,7 @@ export default function AboutPage() {
           {/* Illustration */}
           <div className="flex justify-center md:justify-end order-1 md:order-2">
             <Image
-              src="/images/about-illustration.svg"
+              src="/images/shared/about-illustration.svg"
               alt="Designer workspace illustration with screen, cursor, pen tool, and geometric shapes"
               width={400}
               height={400}

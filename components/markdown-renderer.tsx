@@ -17,7 +17,7 @@ function resolveImageSrc(src: string | undefined): string {
 }
 
 const ZOOMABLE_IMAGES: Record<string, { zoomTargets: { label: string; x: number; y: number; scale: number }[]; crops?: { label: string; viewBox: string }[] }> = {
-  "financial-blueprint.svg": {
+  "service-blueprint.svg": {
     zoomTargets: [
       { label: "Discovery & Planning", x: 8, y: 50, scale: 3.5 },
       { label: "Account Initialization", x: 30, y: 50, scale: 3.5 },
